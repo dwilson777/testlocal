@@ -1,0 +1,864 @@
+{
+    "docs": [
+        {
+            "location": "/index.html", 
+            "text": "Welcome to glomex docs\n\n\nglomex is a subsidiary of ProSiebenSat.1 Group which is the number one television broadcaster in Germany, reaching over 42 million households each day in Germany, Austria and Switzerland.  \n\n\nglomex - The Global Media Exchange\n\n\nglomex was created out of the digital division of ProSiebenSat.1 Group.  The company is  a powerful synergy of broadcaster knowledge and technical excellence. The overriding goal of the company is to provide a global market place for the exchange of premium content. For more information about our vision, see our video on \nYoutube\n.\n\n\n \n\n\nglomex docs\n\n\nglomex docs is the official documentation site of glomex.  Here you will find everything you need to learn about glomex products and services.  For developers and other technical staff,there is detailed technical information that shows you how implement the glomex services. There are two main types of documents availabe here:\n\n\n\n\nQuickStarts\n - The minimum amount of information to get you up and running in the shortest possible amount of time.\n\n\nReferences\n - The maximum amount of information you will ever need. Detailed and comprehensive references covering all objects, methods and APIs. \n\n\n\n\nglomex Services\n\n\nglomex offers three primary services: \n\n\n\n\nVideo Value Service (VVS)\n\n\nMedia Exchange Service (MES)\n\n\nMetadata Exchange Service (MDS)\n\n\n\n\nVideo Value Service Products\n\n\nThese products make up the Video Value Service (VVS):\n\n\n\n\nVVS: Player\n\n\nVVS: Player UI Manager\n\n\nVVS: Content Lifecycle Manager\n\n\nVVS: Ad Schedule Manager\n\n\nVVS: Mime Type Manager\n\n\nVVS: DRM Content Manager\n\n\n\n\nglomex Video\n\n\nEMBEDDED YOUTUBE", 
+            "title": "Welcome"
+        }, 
+        {
+            "location": "/index.html#welcome-to-glomex-docs", 
+            "text": "glomex is a subsidiary of ProSiebenSat.1 Group which is the number one television broadcaster in Germany, reaching over 42 million households each day in Germany, Austria and Switzerland.", 
+            "title": "Welcome to glomex docs"
+        }, 
+        {
+            "location": "/index.html#glomex-the-global-media-exchange", 
+            "text": "glomex was created out of the digital division of ProSiebenSat.1 Group.  The company is  a powerful synergy of broadcaster knowledge and technical excellence. The overriding goal of the company is to provide a global market place for the exchange of premium content. For more information about our vision, see our video on  Youtube .", 
+            "title": "glomex - The Global Media Exchange"
+        }, 
+        {
+            "location": "/index.html#glomex-docs", 
+            "text": "glomex docs is the official documentation site of glomex.  Here you will find everything you need to learn about glomex products and services.  For developers and other technical staff,there is detailed technical information that shows you how implement the glomex services. There are two main types of documents availabe here:   QuickStarts  - The minimum amount of information to get you up and running in the shortest possible amount of time.  References  - The maximum amount of information you will ever need. Detailed and comprehensive references covering all objects, methods and APIs.", 
+            "title": "glomex docs"
+        }, 
+        {
+            "location": "/index.html#glomex-services", 
+            "text": "glomex offers three primary services:    Video Value Service (VVS)  Media Exchange Service (MES)  Metadata Exchange Service (MDS)", 
+            "title": "glomex Services"
+        }, 
+        {
+            "location": "/index.html#video-value-service-products", 
+            "text": "These products make up the Video Value Service (VVS):   VVS: Player  VVS: Player UI Manager  VVS: Content Lifecycle Manager  VVS: Ad Schedule Manager  VVS: Mime Type Manager  VVS: DRM Content Manager", 
+            "title": "Video Value Service Products"
+        }, 
+        {
+            "location": "/index.html#glomex-video", 
+            "text": "EMBEDDED YOUTUBE", 
+            "title": "glomex Video"
+        }, 
+        {
+            "location": "/vvsfast/index.html", 
+            "text": "Read Me First\n\n\nAll glomex docs begin with a Read Me First in order to help orient readers by: \n\n\n\n\nintroducing the subject matter covered in a doc\n\n\nexplaining the key technology that is covered\n\n\ndescribing the purpose of the doc\n\n\nand the recommended audiences for the doc\n\n\n\n\nPrerequisites are also covered which are things you should know before reading the doc.\n\n\nWhat is the VVS Player?\n\n\nThe VVS Player is glomex's online video player. It has powerful features that enable the detection and prevention of ad-blocking software to help publishers maximise their ad revenue. Publishers can use the VVS Player as their primary video player. Or they can use it instead of their own player when ad-blocking software is detected. This is referred to as a fallback player. This Guide describes how to integrate the VVS Player into your own site as either the primary player or the fallback player. \n\n\nPurpose\n\n\nThe purpose of this document is to provide step by step information describing how to integrate the VVS Player.  The \nPlayer Reference\n  has more comprehensive and detailed information.\n\n\nAudience\n\n\nThis document is for developers and other technical personnel responsible for implementing the VVS Player on a publisher's site.\n\n\nPrerequisities\n\n\nIt is assumed that you have a basic familiarity with JavaScript and object-oriented programming.\n\n\nContents Overview\n\n\nThis document covers all aspects of the VVS Player including:\n\n\n\n\nhow to load and call the player\n\n\nhow to call player methods\n\n\nhow to handle tracking events transmitted by the player\n\n\nhow to schedule ads that display in the player", 
+            "title": "Read Me First"
+        }, 
+        {
+            "location": "/vvsfast/index.html#read-me-first", 
+            "text": "All glomex docs begin with a Read Me First in order to help orient readers by:    introducing the subject matter covered in a doc  explaining the key technology that is covered  describing the purpose of the doc  and the recommended audiences for the doc   Prerequisites are also covered which are things you should know before reading the doc.", 
+            "title": "Read Me First"
+        }, 
+        {
+            "location": "/vvsfast/index.html#what-is-the-vvs-player", 
+            "text": "The VVS Player is glomex's online video player. It has powerful features that enable the detection and prevention of ad-blocking software to help publishers maximise their ad revenue. Publishers can use the VVS Player as their primary video player. Or they can use it instead of their own player when ad-blocking software is detected. This is referred to as a fallback player. This Guide describes how to integrate the VVS Player into your own site as either the primary player or the fallback player.", 
+            "title": "What is the VVS Player?"
+        }, 
+        {
+            "location": "/vvsfast/index.html#purpose", 
+            "text": "The purpose of this document is to provide step by step information describing how to integrate the VVS Player.  The  Player Reference   has more comprehensive and detailed information.", 
+            "title": "Purpose"
+        }, 
+        {
+            "location": "/vvsfast/index.html#audience", 
+            "text": "This document is for developers and other technical personnel responsible for implementing the VVS Player on a publisher's site.", 
+            "title": "Audience"
+        }, 
+        {
+            "location": "/vvsfast/index.html#prerequisities", 
+            "text": "It is assumed that you have a basic familiarity with JavaScript and object-oriented programming.", 
+            "title": "Prerequisities"
+        }, 
+        {
+            "location": "/vvsfast/index.html#contents-overview", 
+            "text": "This document covers all aspects of the VVS Player including:   how to load and call the player  how to call player methods  how to handle tracking events transmitted by the player  how to schedule ads that display in the player", 
+            "title": "Contents Overview"
+        }, 
+        {
+            "location": "/vvsfast/playerformats/index.html", 
+            "text": "Player Formats\n\n\nThis topic describes the various streaming formats that are currently supported by the player.  This includes streaming formats with and without Digital Rights Management (DRM).\n\n\nBrowser Formats\n\n\nThe table below shows the HTML desktop browser and plugin formats that are currently supported.\n\n\n \n\n\n \nDownload\n a PDF Brochure That Includes this Table\n\n\nMobile Formats\n\n\nTable of Mobile Formats.\n\n\nSet-top Boxes and Casting\n\n\nTable of Set-top Boxes and casting.", 
+            "title": "Player Formats"
+        }, 
+        {
+            "location": "/vvsfast/playerformats/index.html#player-formats", 
+            "text": "This topic describes the various streaming formats that are currently supported by the player.  This includes streaming formats with and without Digital Rights Management (DRM).", 
+            "title": "Player Formats"
+        }, 
+        {
+            "location": "/vvsfast/playerformats/index.html#browser-formats", 
+            "text": "The table below shows the HTML desktop browser and plugin formats that are currently supported.       Download  a PDF Brochure That Includes this Table", 
+            "title": "Browser Formats"
+        }, 
+        {
+            "location": "/vvsfast/playerformats/index.html#mobile-formats", 
+            "text": "Table of Mobile Formats.", 
+            "title": "Mobile Formats"
+        }, 
+        {
+            "location": "/vvsfast/playerformats/index.html#set-top-boxes-and-casting", 
+            "text": "Table of Set-top Boxes and casting.", 
+            "title": "Set-top Boxes and Casting"
+        }, 
+        {
+            "location": "/vvsfast/playerobjectmodel/index.html", 
+            "text": "Player Object Model\n\n\nThe diagram below illustrates the key glomex objects and their relationships.  The diagram also highlights some of most important functions and methods of objects.  For data tables, the most important data attributes are shown.\n\n\nSummary Object Model\n\n\n\n\n \nDownload\n a PDF of the Object Model\n\n\nDetailed Object Model\n\n\nClick here to display a detailed view of the object model with all methods.", 
+            "title": "Player Object Model"
+        }, 
+        {
+            "location": "/vvsfast/playerobjectmodel/index.html#player-object-model", 
+            "text": "The diagram below illustrates the key glomex objects and their relationships.  The diagram also highlights some of most important functions and methods of objects.  For data tables, the most important data attributes are shown.", 
+            "title": "Player Object Model"
+        }, 
+        {
+            "location": "/vvsfast/playerobjectmodel/index.html#summary-object-model", 
+            "text": "Download  a PDF of the Object Model", 
+            "title": "Summary Object Model"
+        }, 
+        {
+            "location": "/vvsfast/playerobjectmodel/index.html#detailed-object-model", 
+            "text": "Click here to display a detailed view of the object model with all methods.", 
+            "title": "Detailed Object Model"
+        }, 
+        {
+            "location": "/vvsfast/calling/index.html", 
+            "text": "Loading and Calling the Player\n\n\nLet's start with some VVS Player basics. This chapter covers key information about the player such as the .js file that the code is stored in and the PLAYER-ID which is a unique identifier for players. It also covers how to initialize and start the player. To view a complete code sample, see \nCopyCode: Calling the Player\n.\n\n\nThe glomex-loader.js File\n\n\nThe primary loading code for the VVS Player is defined in a single JavaScript code file: glomex-loader.js. After including this file in your \nscript src\n parameter at the top of your own JavaScript code file, you then initialize the VVS Player by calling \nglomex.init\n with a PLAYER-ID parameter.\n\n\nThe PLAYER-ID Parameter\n\n\nEach individual player configuration is identified by a PLAYER-ID. The \nGlomex Self-Service-Tool\n is used to configure various players. Before you initialize a player, decide which player configuration you wish to use and write down its PLAYER-ID. You will need it when you initialize the player.\n\n\nInitializing both Players: glomex.init\n\n\nTo initialize the VVS Player, you call the \nglomex.init\n method and pass it the PLAYERID as the second parameter:\n\n\nglomex.init(domNode\nDomNode\n, identifier\nPLAYER-ID\n)\n\n\nThis returns an object with two functions: \n\n\n\n\nonGlomexPlayer\n\n\nonPublisherPlayer\n\n\n\n\nThese two functions allow the registration of callbacks. Based on the configuration settings in the player, either the onGlomexPlayer or onPublisherPlayer is triggered based on certain events.\n\n\nStarting the Glomex Player\n\n\nThis function starts the Glomex Player: \nonGlomexPlayer(callback\nFunction\n)\n\n\nThe callback will be called with the \nPlayer Methods: General\n instance as the first argument. For further information visit the dedicated \nPlayer Methods: General\n topic.\n\n\nStarting the Publisher Player\n\n\nThis function starts the Publisher's Player: \nonPublisherPlayer(callback\nFunction\n)\n\n\nThe callback will be called without any arguments.", 
+            "title": "Loading & Calling the Player"
+        }, 
+        {
+            "location": "/vvsfast/calling/index.html#loading-and-calling-the-player", 
+            "text": "Let's start with some VVS Player basics. This chapter covers key information about the player such as the .js file that the code is stored in and the PLAYER-ID which is a unique identifier for players. It also covers how to initialize and start the player. To view a complete code sample, see  CopyCode: Calling the Player .", 
+            "title": "Loading and Calling the Player"
+        }, 
+        {
+            "location": "/vvsfast/calling/index.html#the-glomex-loaderjs-file", 
+            "text": "The primary loading code for the VVS Player is defined in a single JavaScript code file: glomex-loader.js. After including this file in your  script src  parameter at the top of your own JavaScript code file, you then initialize the VVS Player by calling  glomex.init  with a PLAYER-ID parameter.", 
+            "title": "The glomex-loader.js File"
+        }, 
+        {
+            "location": "/vvsfast/calling/index.html#the-player-id-parameter", 
+            "text": "Each individual player configuration is identified by a PLAYER-ID. The  Glomex Self-Service-Tool  is used to configure various players. Before you initialize a player, decide which player configuration you wish to use and write down its PLAYER-ID. You will need it when you initialize the player.", 
+            "title": "The PLAYER-ID Parameter"
+        }, 
+        {
+            "location": "/vvsfast/calling/index.html#initializing-both-players-glomexinit", 
+            "text": "To initialize the VVS Player, you call the  glomex.init  method and pass it the PLAYERID as the second parameter:  glomex.init(domNode DomNode , identifier PLAYER-ID )  This returns an object with two functions:    onGlomexPlayer  onPublisherPlayer   These two functions allow the registration of callbacks. Based on the configuration settings in the player, either the onGlomexPlayer or onPublisherPlayer is triggered based on certain events.", 
+            "title": "Initializing both Players: glomex.init"
+        }, 
+        {
+            "location": "/vvsfast/calling/index.html#starting-the-glomex-player", 
+            "text": "This function starts the Glomex Player:  onGlomexPlayer(callback Function )  The callback will be called with the  Player Methods: General  instance as the first argument. For further information visit the dedicated  Player Methods: General  topic.", 
+            "title": "Starting the Glomex Player"
+        }, 
+        {
+            "location": "/vvsfast/calling/index.html#starting-the-publisher-player", 
+            "text": "This function starts the Publisher's Player:  onPublisherPlayer(callback Function )  The callback will be called without any arguments.", 
+            "title": "Starting the Publisher Player"
+        }, 
+        {
+            "location": "/vvsfast/callcode/index.html", 
+            "text": "CopyCode: Calling the Player\n\n\nCopycode topics provide code that you can copy into your own applications. The code provided her lets you initialize the loader and call both the glomex player or your own player.\n\n\nThe Code: Starting Both Players\n\n\nThe code sample below illustrates a typical implementation. In this example, the PLAYER-ID is \n12345\n. The player instance is named \nmyplayer\n. After initializing \nmyplayer\n it can be used to call valid Player API functions, such as  \nAddContent()\n and \nplay()\n, as indicated in the code that is commented out below. \n\n\ndiv id=\nplayerNode\n/div\n\n\nscript src=\nglomex-loader.js\n/script\n\n\n\nscript\n\n  var domNode = document.getElementById('playerNode');\n  glomex.init(domNode, '12345')\n    .onGlomexPlayer(function(myplayer) {\n      // myplayer.addContent(\u2026)\n      // myplayer.play()\n    })\n    .onPublisherPlayer(function() {\n      // e.g. initialize the publishers own player\n    });\n  });\n\n/script", 
+            "title": "CopyCode: Calling the Player"
+        }, 
+        {
+            "location": "/vvsfast/callcode/index.html#copycode-calling-the-player", 
+            "text": "Copycode topics provide code that you can copy into your own applications. The code provided her lets you initialize the loader and call both the glomex player or your own player.", 
+            "title": "CopyCode: Calling the Player"
+        }, 
+        {
+            "location": "/vvsfast/callcode/index.html#the-code-starting-both-players", 
+            "text": "The code sample below illustrates a typical implementation. In this example, the PLAYER-ID is  12345 . The player instance is named  myplayer . After initializing  myplayer  it can be used to call valid Player API functions, such as   AddContent()  and  play() , as indicated in the code that is commented out below.   div id= playerNode /div  script src= glomex-loader.js /script  script \n  var domNode = document.getElementById('playerNode');\n  glomex.init(domNode, '12345')\n    .onGlomexPlayer(function(myplayer) {\n      // myplayer.addContent(\u2026)\n      // myplayer.play()\n    })\n    .onPublisherPlayer(function() {\n      // e.g. initialize the publishers own player\n    });\n  }); /script", 
+            "title": "The Code: Starting Both Players"
+        }, 
+        {
+            "location": "/vvsfast/code/index.html", 
+            "text": "CodeInteractive\n\n\nlink", 
+            "title": "CodeInteractive: Calling the Player"
+        }, 
+        {
+            "location": "/vvsfast/code/index.html#codeinteractive", 
+            "text": "link", 
+            "title": "CodeInteractive"
+        }, 
+        {
+            "location": "/vvsfast/events/index.html", 
+            "text": "Player Events\n\n\nThe \non()\n function enables you to listen for a wide variety of events, including custom events that you can add.  See \nCopyCode: Handling Player Events\n for a code sample.\n\n\nThe VVS Player transmits its state based on a variety of events.  The transmissions includes:\n\n\n\n\nthe trackingEventName (see \nTracking Event Names\n for a detailed list of trackingEventNames)\n\n\nthe payload (see \nEvent Payloads\n for detailed information about payload attributes)\n\n\n\n\nA variety of additional reference information is provided for tracking events in the Player Reference.", 
+            "title": "Player Events"
+        }, 
+        {
+            "location": "/vvsfast/events/index.html#player-events", 
+            "text": "The  on()  function enables you to listen for a wide variety of events, including custom events that you can add.  See  CopyCode: Handling Player Events  for a code sample.  The VVS Player transmits its state based on a variety of events.  The transmissions includes:   the trackingEventName (see  Tracking Event Names  for a detailed list of trackingEventNames)  the payload (see  Event Payloads  for detailed information about payload attributes)   A variety of additional reference information is provided for tracking events in the Player Reference.", 
+            "title": "Player Events"
+        }, 
+        {
+            "location": "/vvsfast/onevents/index.html", 
+            "text": "CopyCode: Handling Player Events\n\n\nThe code sample below shows how you define your own code to handle events from the player:\n\n\nplayer.on('trackingevent', function trackingCallback(trackingEventName, payload) {\n  // e.g. your Google Analytics tracking or any other provider\n});", 
+            "title": "CopyCode: Handling Player Events"
+        }, 
+        {
+            "location": "/vvsfast/onevents/index.html#copycode-handling-player-events", 
+            "text": "The code sample below shows how you define your own code to handle events from the player:  player.on('trackingevent', function trackingCallback(trackingEventName, payload) {\n  // e.g. your Google Analytics tracking or any other provider\n});", 
+            "title": "CopyCode: Handling Player Events"
+        }, 
+        {
+            "location": "/vvsfast/ad-scheduler/index.html", 
+            "text": "The AdScheduler\n\n\nThe Ad Scheduler describes positions within a media playback, based on timing information, when ads should appear.\nSuch a schedule can be created before playback of a content video starts and can be updated during playback \nbased on special player events. These events can either extend or update the existing Ad Schedule.", 
+            "title": "The AdScheduler"
+        }, 
+        {
+            "location": "/vvsfast/ad-scheduler/index.html#the-adscheduler", 
+            "text": "The Ad Scheduler describes positions within a media playback, based on timing information, when ads should appear.\nSuch a schedule can be created before playback of a content video starts and can be updated during playback \nbased on special player events. These events can either extend or update the existing Ad Schedule.", 
+            "title": "The AdScheduler"
+        }, 
+        {
+            "location": "/vvsfast/construct/index.html", 
+            "text": "Using the AdScheduler\n\n\nThis topic describes how to use the AdScheduler object.\n\n\nCreating an AdScheduler\n\n\nThe public interface to the \nAdScheduler\n consists of a \nconstructor()\n method as well as a \nget()\n and \nupdate()\n methods:\n\n\nAdScheduler { \n  constructor(config: Object, dependencies: Object), \n\n  get(contentResource: Object, currentPlayerState: Object)\n    =\n adSchedule: Object | promisedAdSchedule: Promise ,\n\n  update(currentAdSchedule: Object, event: Object, currentPlayerState: Object) \n    =\n updatedAdSchedule: Object | promisedUpdatedAdSchedule: Promise \n}\n\n\n\n\nAdScheduler Parameters\n\n\nThere are two crucial parameters in the code above which are described in more detail below.\n\n\nThe dependencies Parameter\n\n\nThe second parameter passed to the constructor method is \ndependencies\n. Valid dependencies are:\n\n\n\n\n\n\n\n\nDependency\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\nfetchHidden(src: String, handler: Function)\n\n\nProvides a method to load sources in a hidden way in the AdBlocker case. \nhandler\n gets called with \n(null, {content})\n, the content of the requested file, or \n(error)\n if the loading failed.\n\n\n\n\n\n\n\n\nThe currentPlayerState Parameter\n\n\nDescribes player state, which gets passed to the \nget\n and \nupdate\n method calls.\n\n\n\n\n\n\n\n\nName\n\n\nDescription\n\n\nType\n\n\nExample\n\n\nDefault\n\n\nOrigin\n\n\n\n\n\n\n\n\n\n\nisAdBlock\n\n\nTransmits the AdBlocker state\n\n\nBoolean\n\n\ntrue\n\n\nfalse\n\n\nVideoPlayer\n\n\n\n\n\n\nisInFullscreen\n\n\nTransmits the Fullscreen state\n\n\nBoolean\n\n\ntrue\n\n\nfalse\n\n\nVideoPlayer\n\n\n\n\n\n\ntimestamp\n\n\nTransmits the current playback time as timestamp\n\n\nTimestamp\n\n\n1458550174330\n\n\nnull\n\n\nVideoPlayer", 
+            "title": "Using the AdScheduler"
+        }, 
+        {
+            "location": "/vvsfast/construct/index.html#using-the-adscheduler", 
+            "text": "This topic describes how to use the AdScheduler object.", 
+            "title": "Using the AdScheduler"
+        }, 
+        {
+            "location": "/vvsfast/construct/index.html#creating-an-adscheduler", 
+            "text": "The public interface to the  AdScheduler  consists of a  constructor()  method as well as a  get()  and  update()  methods:  AdScheduler { \n  constructor(config: Object, dependencies: Object), \n\n  get(contentResource: Object, currentPlayerState: Object)\n    =  adSchedule: Object | promisedAdSchedule: Promise ,\n\n  update(currentAdSchedule: Object, event: Object, currentPlayerState: Object) \n    =  updatedAdSchedule: Object | promisedUpdatedAdSchedule: Promise \n}", 
+            "title": "Creating an AdScheduler"
+        }, 
+        {
+            "location": "/vvsfast/construct/index.html#adscheduler-parameters", 
+            "text": "There are two crucial parameters in the code above which are described in more detail below.", 
+            "title": "AdScheduler Parameters"
+        }, 
+        {
+            "location": "/vvsfast/construct/index.html#the-dependencies-parameter", 
+            "text": "The second parameter passed to the constructor method is  dependencies . Valid dependencies are:     Dependency  Description      fetchHidden(src: String, handler: Function)  Provides a method to load sources in a hidden way in the AdBlocker case.  handler  gets called with  (null, {content}) , the content of the requested file, or  (error)  if the loading failed.", 
+            "title": "The dependencies Parameter"
+        }, 
+        {
+            "location": "/vvsfast/construct/index.html#the-currentplayerstate-parameter", 
+            "text": "Describes player state, which gets passed to the  get  and  update  method calls.     Name  Description  Type  Example  Default  Origin      isAdBlock  Transmits the AdBlocker state  Boolean  true  false  VideoPlayer    isInFullscreen  Transmits the Fullscreen state  Boolean  true  false  VideoPlayer    timestamp  Transmits the current playback time as timestamp  Timestamp  1458550174330  null  VideoPlayer", 
+            "title": "The currentPlayerState Parameter"
+        }, 
+        {
+            "location": "/vvsfast/ad-scheduler2/index.html", 
+            "text": "Task List: Integrating the Ad Scheduler\n\n\nNow that you are familiar with the AdScheduler object let's take a look at how you integrate it into your own code.  The \nCopyCode: Integrating the AdScheduler\n topic has a code sample that illustrates these steps.\n\n\nIntegration Steps\n\n\nFollow these steps to integrate the AdScheduler.\n\n\n\n\n\n\nCreate a Player Instance.\n\n\n\n\n\n\nCreate an AdScheduler Instance using the public interface methods described in \nUsing the AdScheduler\n.\n\n\n\n\n\n\nIntroduce the AdSchedulerInstance to the Player instance e.g. by calling:\n\n\nplayer.setAdScheduler(adScheduler);\n\n\n\n\n\n\nThe Player can then call: \n\n\nadScheduler.get(contentResource: Object, currentPlayerState: Object)\n initially and use it for scheduling.\n\n\n\n\n\n\nThe player events are tracked and whenever certain events, such as \nPause\n occur, the player triggers \n   \nupdate(currentAdSchedule: Object, eventType: String, currentPlayerState: Object)\n, which returns an updated Ad Schedule. See the Events chapter for more information about the various events that can occur.\n\n\n\n\n\n\nWhen the playback end is reached, the player starts with a new content video, which triggers a fresh get on the AdScheduler (step 4 above).", 
+            "title": "Task List: Integrating the AdScheduler"
+        }, 
+        {
+            "location": "/vvsfast/ad-scheduler2/index.html#task-list-integrating-the-ad-scheduler", 
+            "text": "Now that you are familiar with the AdScheduler object let's take a look at how you integrate it into your own code.  The  CopyCode: Integrating the AdScheduler  topic has a code sample that illustrates these steps.", 
+            "title": "Task List: Integrating the Ad Scheduler"
+        }, 
+        {
+            "location": "/vvsfast/ad-scheduler2/index.html#integration-steps", 
+            "text": "Follow these steps to integrate the AdScheduler.    Create a Player Instance.    Create an AdScheduler Instance using the public interface methods described in  Using the AdScheduler .    Introduce the AdSchedulerInstance to the Player instance e.g. by calling:  player.setAdScheduler(adScheduler);    The Player can then call:   adScheduler.get(contentResource: Object, currentPlayerState: Object)  initially and use it for scheduling.    The player events are tracked and whenever certain events, such as  Pause  occur, the player triggers \n    update(currentAdSchedule: Object, eventType: String, currentPlayerState: Object) , which returns an updated Ad Schedule. See the Events chapter for more information about the various events that can occur.    When the playback end is reached, the player starts with a new content video, which triggers a fresh get on the AdScheduler (step 4 above).", 
+            "title": "Integration Steps"
+        }, 
+        {
+            "location": "/vvsfast/ad-integration/index.html", 
+            "text": "CopyCode: Integrating the AdScheduler\n\n\nNow that you are familiar with the AdScheduler and the basics of how to integrate it into your player we can walk you through a full code example to illustrate how to set up your own code.\n\n\nOverview of the Code Sample\n\n\nThe example below starts by instantiating a \nplayer\n, \nadScheduler\n and \ncontentResource\n in the usual way.  The \ncontentResource\n is then added as content to the player and the player starts with \nplay\n. Within the player, the \nget()\n method returns a \ncurrentAdSchedule\n.  Sample code is also provided for the case where the user triggers a pause event. If the user pauses, the \nupdate()\n method is called and the \nupdatedAdSchedeule\n replaces the \ncurrentAdSchedule\n. Finaly, if the player reaches the end of playback and starts with a new video the \nget()\n method is used again to replace the previous Ad Schedule with \ncurrentAdSchedule\n.\n\n\nCopyCode\n\n\n  \n  \n \n\n\nvar player = new Player();\nvar adScheduler = new AdScheduler();\n\nplayer.setAdScheduler(adScheduler);\n\nvar contentResource = {\n  id: '12345',\n  duration: 120,\n  formatName: 'myFormat'\n};\nplayer.addContent(contentResource);\nplayer.play();\n\n// --- WITHIN THE PLAYER ----\n....\nvar currentPlayerState = {\n  isInFullscreen: false,\n  isAdBlock: false\n};\n\nadScheduler.get(contentResource, currentPlayerState).then(function(currentAdSchedule) {\n  /* \n   * player reads returned timed positions, so that it can trigger ad-fetching \n   * and -rendering, when those positions got reached \n   */\n});\n\n// User triggers Pause Event\nvar timestamp = currentPlayerState.timestamp = Date.now();\nvar event = {type: 'Pause'};\nadScheduler.update(currentAdSchedule, event, currentPlayerState).then(function(updatedAdSchedule) {\n  /* \n   * Player uses the updatedAdSchedule as currentAdSchedule.\n   * When the updated Ad Schedule contains an entry for that \n   * timestamp it starts to fetch and render the ad.\n   */\n});\n\n// Player reaches the end of the playback and starts with a new content video\nadScheduler.get(contentResource, currentPlayerState).then(function(currentAdSchedule) {\n  /* \n   * Player replaces the previous Ad Schedule with the new currentAdSchedule\n   */\n});\n...\n// --- End: WITHIN THE PLAYER ----", 
+            "title": "CopyCode: Integrating the AdScheduler"
+        }, 
+        {
+            "location": "/vvsfast/ad-integration/index.html#copycode-integrating-the-adscheduler", 
+            "text": "Now that you are familiar with the AdScheduler and the basics of how to integrate it into your player we can walk you through a full code example to illustrate how to set up your own code.", 
+            "title": "CopyCode: Integrating the AdScheduler"
+        }, 
+        {
+            "location": "/vvsfast/ad-integration/index.html#overview-of-the-code-sample", 
+            "text": "The example below starts by instantiating a  player ,  adScheduler  and  contentResource  in the usual way.  The  contentResource  is then added as content to the player and the player starts with  play . Within the player, the  get()  method returns a  currentAdSchedule .  Sample code is also provided for the case where the user triggers a pause event. If the user pauses, the  update()  method is called and the  updatedAdSchedeule  replaces the  currentAdSchedule . Finaly, if the player reaches the end of playback and starts with a new video the  get()  method is used again to replace the previous Ad Schedule with  currentAdSchedule .", 
+            "title": "Overview of the Code Sample"
+        }, 
+        {
+            "location": "/vvsfast/ad-integration/index.html#copycode", 
+            "text": "var player = new Player();\nvar adScheduler = new AdScheduler();\n\nplayer.setAdScheduler(adScheduler);\n\nvar contentResource = {\n  id: '12345',\n  duration: 120,\n  formatName: 'myFormat'\n};\nplayer.addContent(contentResource);\nplayer.play();\n\n// --- WITHIN THE PLAYER ----\n....\nvar currentPlayerState = {\n  isInFullscreen: false,\n  isAdBlock: false\n};\n\nadScheduler.get(contentResource, currentPlayerState).then(function(currentAdSchedule) {\n  /* \n   * player reads returned timed positions, so that it can trigger ad-fetching \n   * and -rendering, when those positions got reached \n   */\n});\n\n// User triggers Pause Event\nvar timestamp = currentPlayerState.timestamp = Date.now();\nvar event = {type: 'Pause'};\nadScheduler.update(currentAdSchedule, event, currentPlayerState).then(function(updatedAdSchedule) {\n  /* \n   * Player uses the updatedAdSchedule as currentAdSchedule.\n   * When the updated Ad Schedule contains an entry for that \n   * timestamp it starts to fetch and render the ad.\n   */\n});\n\n// Player reaches the end of the playback and starts with a new content video\nadScheduler.get(contentResource, currentPlayerState).then(function(currentAdSchedule) {\n  /* \n   * Player replaces the previous Ad Schedule with the new currentAdSchedule\n   */\n});\n...\n// --- End: WITHIN THE PLAYER ----", 
+            "title": "CopyCode"
+        }, 
+        {
+            "location": "/vvsref/playerrefintro/index.html", 
+            "text": "Hi! Welcome to the Doc\n\n\nAll glomex docs begin with a Read Me First.  This helps orients readers by introducing the subject matter covered in a doc, the purpose of the doc, the recommended audiences for the doc.  Prerequisites are also covered which are things you should know before reading the doc.\n\n\nSo What's the Player All About?\n\n\nThe VVS Player is glomex's online video player. It has powerful features that enable the detection and prevention of ad-blocking software to help publishers maximise their ad revenue. Publishers can use the VVS Player as their primary video player. Or they can use it instead of their own player when ad-blocking software is detected. This is referred to as a fallback player. This Guide describes how to integrate the VVS Player into your own site as either the primary player or the fallback player. \n\n\nWhy you Should Read this Document\n\n\nThe purpose of this document is to provide detailed steps and reference information to help you successfully implement the VVS player.\n\n\nWho Should Read this Document\n\n\nThis document is for developers and other technical personnel responsible for implementing the VVS Player on a publisher's site.\n\n\nWhat you Need to Know First\n\n\nIt is assumed that you have a basic familiarity with JavaScript and object-oriented programming.\n\n\nWhat's Inside the Doc\n\n\nThis document covers all aspects of the VVS Player including:\n\n\n\n\nhow to initialize the player\n\n\nhow to call public methods provided as part of the API\n\n\nhow to handle tracking events transmitted from the player through a lifecyle\n\n\nhow to schedule ads that display in the player", 
+            "title": "Read Me First"
+        }, 
+        {
+            "location": "/vvsref/playerrefintro/index.html#hi-welcome-to-the-doc", 
+            "text": "All glomex docs begin with a Read Me First.  This helps orients readers by introducing the subject matter covered in a doc, the purpose of the doc, the recommended audiences for the doc.  Prerequisites are also covered which are things you should know before reading the doc.", 
+            "title": "Hi! Welcome to the Doc"
+        }, 
+        {
+            "location": "/vvsref/playerrefintro/index.html#so-whats-the-player-all-about", 
+            "text": "The VVS Player is glomex's online video player. It has powerful features that enable the detection and prevention of ad-blocking software to help publishers maximise their ad revenue. Publishers can use the VVS Player as their primary video player. Or they can use it instead of their own player when ad-blocking software is detected. This is referred to as a fallback player. This Guide describes how to integrate the VVS Player into your own site as either the primary player or the fallback player.", 
+            "title": "So What's the Player All About?"
+        }, 
+        {
+            "location": "/vvsref/playerrefintro/index.html#why-you-should-read-this-document", 
+            "text": "The purpose of this document is to provide detailed steps and reference information to help you successfully implement the VVS player.", 
+            "title": "Why you Should Read this Document"
+        }, 
+        {
+            "location": "/vvsref/playerrefintro/index.html#who-should-read-this-document", 
+            "text": "This document is for developers and other technical personnel responsible for implementing the VVS Player on a publisher's site.", 
+            "title": "Who Should Read this Document"
+        }, 
+        {
+            "location": "/vvsref/playerrefintro/index.html#what-you-need-to-know-first", 
+            "text": "It is assumed that you have a basic familiarity with JavaScript and object-oriented programming.", 
+            "title": "What you Need to Know First"
+        }, 
+        {
+            "location": "/vvsref/playerrefintro/index.html#whats-inside-the-doc", 
+            "text": "This document covers all aspects of the VVS Player including:   how to initialize the player  how to call public methods provided as part of the API  how to handle tracking events transmitted from the player through a lifecyle  how to schedule ads that display in the player", 
+            "title": "What's Inside the Doc"
+        }, 
+        {
+            "location": "/vvsref/api/index.html", 
+            "text": "Player Methods: General\n\n\nThis chapter provides a list of commonly used public functions provided by the VVS Player. The exception being the \naddContent\n and \nremoveContent\n functions which are a bit more sophisticated than most so they have their own chapter: \nPlayer Methods: Adding and Removing Content\n.\n\n\nBasic Control Methods\n\n\nplay()\n\n\nStarts the playback.\n\n\npause()\n\n\nPauses content and ads.\n\n\ndestroy(callback\nFunction\n))\n\n\nDestroys this player instance.\nCallback will be called with no arguments when the player instance was destroyed.\nThe callback is optional.\n\n\nPlaylist Methods\n\n\nonPlaylistIndexChange(callback)\n\n\nDetect when a playlist changed. \nCallback will be called with: \ncallback({playlistIndex: 0})\n.\n\n\nonContentPositionChange\n\n\nCalls the callback with the current position of a content video.\nCallback will be called with current position (in seconds): \ncallback({position: 234})\n.\n\n\nskipToPlaylistItem(playlistIndex)\n\n\nSkips to a particular playlist item.\n\n\nAd Methods\n\n\nsetAdScheduler(adScheduler)\n\n\nProvides a mechanism to set the \nadScheduler\n for the player instance. For more information, see \nAd Scheduler\n.\n\n\nonLinearAdRollStart(callback)\n\n\nDetects when an ad block starts. Callback will be called with: \ncallback({rollName: 'preroll', rollIndex: 0})\n.\n\n\nValid values for the \nrollName\n parameter are:\n\n\n\n\npreroll\n\n\nmidroll\n\n\npostroll\n\n\n\n\nValid values for \nrollIndex\n are:\n\n\n\n\n0\n\n\n1\n\n\n2\n\n\n\n\nNote that the value is always 0 for a preroll and postroll.\n\n\nonLinearAdRollEnd(callback)\n\n\nDetects when an ad block ends. Callback will be called with: \ncallback({rollName: 'preroll', rollIndex: 0})\n.\n\n\nValid values for the \nrollName\n parameter are:\n\n\n\n\npreroll\n\n\nmidroll\n\n\npostroll\n\n\n\n\nValid values for \nrollIndex\n are:\n\n\n\n\n0\n\n\n1\n\n\n2\n\n\n\n\nNote that the value is always 0 for a preroll and postroll.\n\n\nTracking Methods\n\n\non(eventName, callback)\n\n\nProvides a mechanism to listen for player-related events. To implement a custom tracker, see \nTracking\n.\n\n\nList of on() events\n\n\n\n\n\n\n\n\nname\n\n\narguments\n\n\ndescription\n\n\n\n\n\n\n\n\n\n\ntrackingevent\n\n\ntrackingEventName\n, \npayload\n\n\nGets triggered for all tracking related events\n\n\n\n\n\n\n\n\nUser Methods\n\n\nrequestFullscreen()\n\n\nRequests fullscreen. This can only be triggered by a user. For example:\n\n\n`js\nvar domElement = document.getElementsByClassName('k-player')[0];\ndomElement.addEventListener('click', function() { player.requestFullscreen() }, true);\n\n\nCAUTION!\n: This function call will only work in HTML5.  It does not work in Flash.", 
+            "title": "Player Methods: General"
+        }, 
+        {
+            "location": "/vvsref/api/index.html#player-methods-general", 
+            "text": "This chapter provides a list of commonly used public functions provided by the VVS Player. The exception being the  addContent  and  removeContent  functions which are a bit more sophisticated than most so they have their own chapter:  Player Methods: Adding and Removing Content .", 
+            "title": "Player Methods: General"
+        }, 
+        {
+            "location": "/vvsref/api/index.html#basic-control-methods", 
+            "text": "", 
+            "title": "Basic Control Methods"
+        }, 
+        {
+            "location": "/vvsref/api/index.html#play", 
+            "text": "Starts the playback.", 
+            "title": "play()"
+        }, 
+        {
+            "location": "/vvsref/api/index.html#pause", 
+            "text": "Pauses content and ads.", 
+            "title": "pause()"
+        }, 
+        {
+            "location": "/vvsref/api/index.html#destroycallbackfunction", 
+            "text": "Destroys this player instance.\nCallback will be called with no arguments when the player instance was destroyed.\nThe callback is optional.", 
+            "title": "destroy(callback&lt;Function&gt;))"
+        }, 
+        {
+            "location": "/vvsref/api/index.html#playlist-methods", 
+            "text": "", 
+            "title": "Playlist Methods"
+        }, 
+        {
+            "location": "/vvsref/api/index.html#onplaylistindexchangecallback", 
+            "text": "Detect when a playlist changed. \nCallback will be called with:  callback({playlistIndex: 0}) .", 
+            "title": "onPlaylistIndexChange(callback)"
+        }, 
+        {
+            "location": "/vvsref/api/index.html#oncontentpositionchange", 
+            "text": "Calls the callback with the current position of a content video.\nCallback will be called with current position (in seconds):  callback({position: 234}) .", 
+            "title": "onContentPositionChange"
+        }, 
+        {
+            "location": "/vvsref/api/index.html#skiptoplaylistitemplaylistindex", 
+            "text": "Skips to a particular playlist item.", 
+            "title": "skipToPlaylistItem(playlistIndex)"
+        }, 
+        {
+            "location": "/vvsref/api/index.html#ad-methods", 
+            "text": "", 
+            "title": "Ad Methods"
+        }, 
+        {
+            "location": "/vvsref/api/index.html#setadscheduleradscheduler", 
+            "text": "Provides a mechanism to set the  adScheduler  for the player instance. For more information, see  Ad Scheduler .", 
+            "title": "setAdScheduler(adScheduler)"
+        }, 
+        {
+            "location": "/vvsref/api/index.html#onlinearadrollstartcallback", 
+            "text": "Detects when an ad block starts. Callback will be called with:  callback({rollName: 'preroll', rollIndex: 0}) .  Valid values for the  rollName  parameter are:   preroll  midroll  postroll   Valid values for  rollIndex  are:   0  1  2   Note that the value is always 0 for a preroll and postroll.", 
+            "title": "onLinearAdRollStart(callback)"
+        }, 
+        {
+            "location": "/vvsref/api/index.html#onlinearadrollendcallback", 
+            "text": "Detects when an ad block ends. Callback will be called with:  callback({rollName: 'preroll', rollIndex: 0}) .  Valid values for the  rollName  parameter are:   preroll  midroll  postroll   Valid values for  rollIndex  are:   0  1  2   Note that the value is always 0 for a preroll and postroll.", 
+            "title": "onLinearAdRollEnd(callback)"
+        }, 
+        {
+            "location": "/vvsref/api/index.html#tracking-methods", 
+            "text": "", 
+            "title": "Tracking Methods"
+        }, 
+        {
+            "location": "/vvsref/api/index.html#oneventname-callback", 
+            "text": "Provides a mechanism to listen for player-related events. To implement a custom tracker, see  Tracking .", 
+            "title": "on(eventName, callback)"
+        }, 
+        {
+            "location": "/vvsref/api/index.html#list-of-on-events", 
+            "text": "name  arguments  description      trackingevent  trackingEventName ,  payload  Gets triggered for all tracking related events", 
+            "title": "List of on() events"
+        }, 
+        {
+            "location": "/vvsref/api/index.html#user-methods", 
+            "text": "", 
+            "title": "User Methods"
+        }, 
+        {
+            "location": "/vvsref/api/index.html#requestfullscreen", 
+            "text": "Requests fullscreen. This can only be triggered by a user. For example:  `js\nvar domElement = document.getElementsByClassName('k-player')[0];\ndomElement.addEventListener('click', function() { player.requestFullscreen() }, true);  CAUTION! : This function call will only work in HTML5.  It does not work in Flash.", 
+            "title": "requestFullscreen()"
+        }, 
+        {
+            "location": "/vvsref/addcontent/index.html", 
+            "text": "Player Methods: Adding and Removing Content\n\n\nTwo functions of the player let you add and remove content:\n\n\n\n\naddContent()\n\n\nremoveContentAt()\n\n\n\n\nThese two functions are decribed below along with the corresponding data model and valid source values for the \naddContent()\n method. For additional functions of the player, see \nPlayer Methods: General\n.\n\n\nThe addContent Method\n\n\nThe addContent function can be called with up to two parameters.  The second parameter is optional:\n\n\naddContent(contentResource[, index])\n\n\nThis method provides a mechanism to add a \ncontentResource\n to a playlist.\nThe index can be optionally passed to add a \ncontentResource\n at a specific position.\n\n\nThe removeContentAt(index) Method\n\n\nProvides a mechanism to remove a \ncontentResource\n from the playlist by passing the playlist \nindex\n on which the \ncontentResource\n should be removed.", 
+            "title": "Player Methods: Adding and Removing Content"
+        }, 
+        {
+            "location": "/vvsref/addcontent/index.html#player-methods-adding-and-removing-content", 
+            "text": "Two functions of the player let you add and remove content:   addContent()  removeContentAt()   These two functions are decribed below along with the corresponding data model and valid source values for the  addContent()  method. For additional functions of the player, see  Player Methods: General .", 
+            "title": "Player Methods: Adding and Removing Content"
+        }, 
+        {
+            "location": "/vvsref/addcontent/index.html#the-addcontent-method", 
+            "text": "The addContent function can be called with up to two parameters.  The second parameter is optional:  addContent(contentResource[, index])  This method provides a mechanism to add a  contentResource  to a playlist.\nThe index can be optionally passed to add a  contentResource  at a specific position.", 
+            "title": "The addContent Method"
+        }, 
+        {
+            "location": "/vvsref/addcontent/index.html#the-removecontentatindex-method", 
+            "text": "Provides a mechanism to remove a  contentResource  from the playlist by passing the playlist  index  on which the  contentResource  should be removed.", 
+            "title": "The removeContentAt(index) Method"
+        }, 
+        {
+            "location": "/vvsref/contentdatamodel/index.html", 
+            "text": "The Content Data Model\n\n\nThe Content Data Model is for \ncontentResources\n.  It is described below.  The optional \nsources\n property of the Content Data model is an array.  It is described further below.\n\n\nThe Model\n\n\nThe Content Data Model is described in the table below:  \n\n\n\n\n\n\n\n\nproperty\n\n\ndefault\n\n\ntype\n\n\ndescription\n\n\nexample\n\n\n\n\n\n\n\n\n\n\nid\n\n\nnull\n\n\nString\n\n\nIdentifier for the content.\n\n\n'12345'\n\n\n\n\n\n\nsources (optional)\n\n\nnull\n\n\nSource\n []\n\n\nArray that contains information about all possible sources, where each source consists of a \nmimetype\n and a \nurl\n. Other optional parameters are: \nprotocol\n, \ncdn\n or \nbitrate\n. Player will then select the most appropriate source for displaying. Each parameter is described in more detail in the table below.\n\n\n[{ url: '.',\nmimetype:\n'.'\n}]\n\n\n\n\n\n\nduration\n\n\nnull\n\n\nFloat\n\n\nDuration of the video\n\n\n120\n\n\n\n\n\n\ntitle\n\n\nnull\n\n\nString\n\n\nTitle of the content\n\n\n'My video\ntitle'\n\n\n\n\n\n\n\n\nThe Sources Attribute\n\n\nThe sources property in the table above can have the following valid values:\n\n\n\n\n\n\n\n\nproperty\n\n\ndefault\n\n\ntype\n\n\ndescription\n\n\nexample\n\n\npossible values\n\n\n\n\n\n\n\n\n\n\nurl\n\n\nnull\n\n\nString\n\n\nURL of the source.\n\n\n'http://foo.mp4'\n\n\n\n\n\n\n\n\nmimetype\n\n\nnull\n\n\nString\n\n\nMimetype of the source.\n\n\n'video/mp4'\n\n\n\n\n\n\n\n\nprotocol (optional)\n\n\nnull\n\n\nString\n\n\nProtocol of the source.\n\n\n'http'\n\n\n'http'\n or \n'rtmp'\n\n\n\n\n\n\ncdn (optional)\n\n\nnull\n\n\nString\n\n\nControl Delivery Network (CDN) from which the source originates.\n\n\n'level3'\n\n\n\n\n\n\n\n\nbitrate (optional)\n\n\nnull\n\n\nuint\n\n\nBitrate of the source.\n\n\n1200000", 
+            "title": "The Content Data Model"
+        }, 
+        {
+            "location": "/vvsref/contentdatamodel/index.html#the-content-data-model", 
+            "text": "The Content Data Model is for  contentResources .  It is described below.  The optional  sources  property of the Content Data model is an array.  It is described further below.", 
+            "title": "The Content Data Model"
+        }, 
+        {
+            "location": "/vvsref/contentdatamodel/index.html#the-model", 
+            "text": "The Content Data Model is described in the table below:       property  default  type  description  example      id  null  String  Identifier for the content.  '12345'    sources (optional)  null  Source  []  Array that contains information about all possible sources, where each source consists of a  mimetype  and a  url . Other optional parameters are:  protocol ,  cdn  or  bitrate . Player will then select the most appropriate source for displaying. Each parameter is described in more detail in the table below.  [{ url: '.', mimetype: '.' }]    duration  null  Float  Duration of the video  120    title  null  String  Title of the content  'My video title'", 
+            "title": "The Model"
+        }, 
+        {
+            "location": "/vvsref/contentdatamodel/index.html#the-sources-attribute", 
+            "text": "The sources property in the table above can have the following valid values:     property  default  type  description  example  possible values      url  null  String  URL of the source.  'http://foo.mp4'     mimetype  null  String  Mimetype of the source.  'video/mp4'     protocol (optional)  null  String  Protocol of the source.  'http'  'http'  or  'rtmp'    cdn (optional)  null  String  Control Delivery Network (CDN) from which the source originates.  'level3'     bitrate (optional)  null  uint  Bitrate of the source.  1200000", 
+            "title": "The Sources Attribute"
+        }, 
+        {
+            "location": "/vvsref/listevents/index.html", 
+            "text": "Tracked Player Events\n\n\nThis topic provides a complete list of events that are tracked by the player.  These events are handled in your code with the \non()\n function.\n\n\nUser/Runtime Events\n\n\nThese are User/Runtime events:  \n\n\n\n\nPlay   \n\n\nClick  \n\n\nPause  \n\n\nError  \n\n\nFullscreen Change\n\n\n\n\nPosition/Viewtime Events\n\n\nThese are the Position/Viewtime events:\n\n\n\n\nAd Omit\n\n\nAd Begin    \n\n\nPosition Change\n\n\nViewtime Change\n\n\nAd Complete   \n\n\n\n\nPosition/Viewtime Content Media Events\n\n\nThese are the Position/Viewtime content media events:\n\n\n\n\nContent Begin  \n\n\nContent Complete\n\n\nPosition Change\n\n\nPosition Seek  \n\n\nViewtime Change\n\n\n\n\nLifecycle Events\n\n\nThese are the Lifecycle events:\n\n\n\n\nLifecycle Create \n\n\nLifecycle Play     \n\n\nLifecycle Playreject   \n\n\nLifecycle Start \n\n\nAdRoll Request     \n\n\nAdRoll Start   \n\n\nAdRoll End\n\n\nLifecycle Abort\n\n\nLifecycle End", 
+            "title": "Tracked Player Events"
+        }, 
+        {
+            "location": "/vvsref/listevents/index.html#tracked-player-events", 
+            "text": "This topic provides a complete list of events that are tracked by the player.  These events are handled in your code with the  on()  function.", 
+            "title": "Tracked Player Events"
+        }, 
+        {
+            "location": "/vvsref/listevents/index.html#userruntime-events", 
+            "text": "These are User/Runtime events:     Play     Click    Pause    Error    Fullscreen Change", 
+            "title": "User/Runtime Events"
+        }, 
+        {
+            "location": "/vvsref/listevents/index.html#positionviewtime-events", 
+            "text": "These are the Position/Viewtime events:   Ad Omit  Ad Begin      Position Change  Viewtime Change  Ad Complete", 
+            "title": "Position/Viewtime Events"
+        }, 
+        {
+            "location": "/vvsref/listevents/index.html#positionviewtime-content-media-events", 
+            "text": "These are the Position/Viewtime content media events:   Content Begin    Content Complete  Position Change  Position Seek    Viewtime Change", 
+            "title": "Position/Viewtime Content Media Events"
+        }, 
+        {
+            "location": "/vvsref/listevents/index.html#lifecycle-events", 
+            "text": "These are the Lifecycle events:   Lifecycle Create   Lifecycle Play       Lifecycle Playreject     Lifecycle Start   AdRoll Request       AdRoll Start     AdRoll End  Lifecycle Abort  Lifecycle End", 
+            "title": "Lifecycle Events"
+        }, 
+        {
+            "location": "/vvsref/tracking/index.html", 
+            "text": "Diagram: Event Tracking\n\n\nThe previous topic itemized the various \ntrackingevents\n that the player transmits.  This chapter provides a diagram to illustrate how user/runtime events relate to position/viewtime events and to the overall Lifecycle. \n\n\nReading the Diagram\n\n\nTo read the diagram below, note the following conventions:\n\n\n\n\nThe \nUser / Runtime\n column on the left indicates user-initiated events.\n\n\nThe \nPosition / Viewtime\n column in the middle indicates system events.\n\n\nThe \nLifecycle\n column on the right indicates overall lifecycle events.\n\n\nAn asterisk (*) indicates an event that can occur multiple times.\n\n\nBlue shading indicates actions beore a Content Resource is involved.\n\n\nOrange shading indicates events related to a sample Content Resource 1\n\n\nDark orange shading indicates events related to a sample Content Resource 2\n\n\n\n\nTracking Events Process Flow Diagram\n\n\nThe diagram below illustrates the tracking events process flow:", 
+            "title": "Diagram: Event Tracking"
+        }, 
+        {
+            "location": "/vvsref/tracking/index.html#diagram-event-tracking", 
+            "text": "The previous topic itemized the various  trackingevents  that the player transmits.  This chapter provides a diagram to illustrate how user/runtime events relate to position/viewtime events and to the overall Lifecycle.", 
+            "title": "Diagram: Event Tracking"
+        }, 
+        {
+            "location": "/vvsref/tracking/index.html#reading-the-diagram", 
+            "text": "To read the diagram below, note the following conventions:   The  User / Runtime  column on the left indicates user-initiated events.  The  Position / Viewtime  column in the middle indicates system events.  The  Lifecycle  column on the right indicates overall lifecycle events.  An asterisk (*) indicates an event that can occur multiple times.  Blue shading indicates actions beore a Content Resource is involved.  Orange shading indicates events related to a sample Content Resource 1  Dark orange shading indicates events related to a sample Content Resource 2", 
+            "title": "Reading the Diagram"
+        }, 
+        {
+            "location": "/vvsref/tracking/index.html#tracking-events-process-flow-diagram", 
+            "text": "The diagram below illustrates the tracking events process flow:", 
+            "title": "Tracking Events Process Flow Diagram"
+        }, 
+        {
+            "location": "/vvsref/events-tracking/index.html", 
+            "text": "Tracking Event Names\n\n\nThis topic provides a comprehensive list of tracking events transmitted by the player.  Each event has an associated payload.  The payload is described in detail in \nPayload Reference\n. \n\n\nThe following events are tracked by the player.\n\n\n\n\n\n\n\n\nEvent Name\n\n\nOccurrence\n\n\nPayload property details\n\n\n\n\n\n\n\n\n\n\nLifecycle Create\n\n\nWhen a new lifecycle got created through a content configuration (e.g. skipping to a different playlist item).\n\n\n\n\n\n\n\n\nLifecycle Play\n\n\nWhen a play was requested successfully\n\n\nisStartedByUser (true or false)\n\n\n\n\n\n\nLifecycle Playreject\n\n\nWhen a lifecycle couldn't play automatically (e.g. on mobile) or was not meant to start automatically\n\n\n\n\n\n\n\n\nLifecycle Start\n\n\nWhen a lifecycle was succesfully prepared and is started.\n\n\n\n\n\n\n\n\nLifecycle Abort\n\n\nAn existing lifecycle is destroyed when skipping to a different playlist item or the user left the current page. Either a \nLifecycle Abort\n or a \nLifecycle End\n must occur.\n\n\nlifecycleAbortReason\n must be provided\n\n\n\n\n\n\nLifecycle End\n\n\nAn existing lifecycle ended normally (with postroll = when postroll ends / without postroll = when content ends). Either a \nLifecycle Abort\n or a \nLifecycle End\n must occur.\n\n\n\n\n\n\n\n\nAdRoll Request\n\n\nWhen an ad-roll (e.g. pre-, mid-, postroll block) gets requested from an ad server.\n\n\nad.rollIndex\n and \nad.rollName\n must be provided.\n\n\n\n\n\n\nAdRoll Start\n\n\nWhen an ad-roll contains at least one playable ad (no faulty or fallback ads) and it is pushed into playback.\n\n\nad.rollIndex\n and \nad.rollName\n must be provided.\n\n\n\n\n\n\nAdRoll End\n\n\nWhen the last ad of an ad-roll completed playback.\n\n\nad.rollIndex\n and \nad.rollName\n must be provided.\n\n\n\n\n\n\nAd Begin\n\n\nWhen a ad clip starts playing or ad image starts displaying.\n\n\nposition\n must contain the initial start position (mostly \n0\n) or \nNaN\n when no \nduration\n.\n\n\n\n\n\n\nAd Complete\n\n\nWhen a ad clip is at the end or when ad image gets hidden.\n\n\nposition\n must match ad media's \nduration\n.\n\n\n\n\n\n\nAd Omit\n\n\nUnsold ad impression.\n\n\n\n\n\n\n\n\nContent Begin\n\n\nWhen a content clip starts playing or content image starts displaying.\n\n\nposition\n must contain the initial start position (mostly \n0\n) or \nNaN\n when no \nduration\n.\n\n\n\n\n\n\nContent Complete\n\n\nWhen a content clip is at the end or when content image gets hidden.\n\n\nposition\n must match content media's \nduration\n.\n\n\n\n\n\n\nPosition Change\n\n\nWhen a position change happens on a particular clip (e.g. content / ad). Preferably provided at least every second.\n\n\npositionType\n and \nposition\n contain further details of a position change.\n\n\n\n\n\n\nPosition Seek\n\n\nWhen a seek occurred on the current clip.\n\n\nfromPosition\n must be filled in.\n\n\n\n\n\n\nViewtime Change\n\n\nWhen a named viewtime is reached on a clip. See special \nViewtime Change\n events below that are required.\n\n\nviewtimeType\n and \nviewtime\n contain further details of a viewtime change\n\n\n\n\n\n\nError\n\n\nWhen an error occurred, which should be reported. Some errors will trigger a \nLifecycle Abort\n event.\n\n\nAn error classification must be provided within \nerrorType\n and optionally an \nerrorCode\n can be passed.\n\n\n\n\n\n\nClick\n\n\nWhen a click occurred on the current clip (ad or content).\n\n\n\n\n\n\n\n\nPause\n\n\nWhen a clip (ad or content) got paused.\n\n\n\n\n\n\n\n\nPlay\n\n\nWhen a clip (ad or content) got played.\n\n\n\n\n\n\n\n\nFullscreen Change\n\n\nWhen the player was put into fullscreen or fullscreen was exited.\n\n\nisInFullscreen\n indicates if fullscreen was entered or left.\n\n\n\n\n\n\nVolume Change\n\n\nWhen volume was changed or when the player got muted / unmuted.\n\n\nisMuted\n and \nvolume\n provide the current volume states.\n\n\n\n\n\n\n\n\nRequired Viewtime Change events\n\n\n\n\n\n\n\n\nPosition Type\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\nviewtimexplus\n\n\nEmitted once when a content clip reaches a total of 3 minutes of viewtime.", 
+            "title": "Tracking Event Names"
+        }, 
+        {
+            "location": "/vvsref/events-tracking/index.html#tracking-event-names", 
+            "text": "This topic provides a comprehensive list of tracking events transmitted by the player.  Each event has an associated payload.  The payload is described in detail in  Payload Reference .   The following events are tracked by the player.     Event Name  Occurrence  Payload property details      Lifecycle Create  When a new lifecycle got created through a content configuration (e.g. skipping to a different playlist item).     Lifecycle Play  When a play was requested successfully  isStartedByUser (true or false)    Lifecycle Playreject  When a lifecycle couldn't play automatically (e.g. on mobile) or was not meant to start automatically     Lifecycle Start  When a lifecycle was succesfully prepared and is started.     Lifecycle Abort  An existing lifecycle is destroyed when skipping to a different playlist item or the user left the current page. Either a  Lifecycle Abort  or a  Lifecycle End  must occur.  lifecycleAbortReason  must be provided    Lifecycle End  An existing lifecycle ended normally (with postroll = when postroll ends / without postroll = when content ends). Either a  Lifecycle Abort  or a  Lifecycle End  must occur.     AdRoll Request  When an ad-roll (e.g. pre-, mid-, postroll block) gets requested from an ad server.  ad.rollIndex  and  ad.rollName  must be provided.    AdRoll Start  When an ad-roll contains at least one playable ad (no faulty or fallback ads) and it is pushed into playback.  ad.rollIndex  and  ad.rollName  must be provided.    AdRoll End  When the last ad of an ad-roll completed playback.  ad.rollIndex  and  ad.rollName  must be provided.    Ad Begin  When a ad clip starts playing or ad image starts displaying.  position  must contain the initial start position (mostly  0 ) or  NaN  when no  duration .    Ad Complete  When a ad clip is at the end or when ad image gets hidden.  position  must match ad media's  duration .    Ad Omit  Unsold ad impression.     Content Begin  When a content clip starts playing or content image starts displaying.  position  must contain the initial start position (mostly  0 ) or  NaN  when no  duration .    Content Complete  When a content clip is at the end or when content image gets hidden.  position  must match content media's  duration .    Position Change  When a position change happens on a particular clip (e.g. content / ad). Preferably provided at least every second.  positionType  and  position  contain further details of a position change.    Position Seek  When a seek occurred on the current clip.  fromPosition  must be filled in.    Viewtime Change  When a named viewtime is reached on a clip. See special  Viewtime Change  events below that are required.  viewtimeType  and  viewtime  contain further details of a viewtime change    Error  When an error occurred, which should be reported. Some errors will trigger a  Lifecycle Abort  event.  An error classification must be provided within  errorType  and optionally an  errorCode  can be passed.    Click  When a click occurred on the current clip (ad or content).     Pause  When a clip (ad or content) got paused.     Play  When a clip (ad or content) got played.     Fullscreen Change  When the player was put into fullscreen or fullscreen was exited.  isInFullscreen  indicates if fullscreen was entered or left.    Volume Change  When volume was changed or when the player got muted / unmuted.  isMuted  and  volume  provide the current volume states.", 
+            "title": "Tracking Event Names"
+        }, 
+        {
+            "location": "/vvsref/events-tracking/index.html#required-viewtime-change-events", 
+            "text": "Position Type  Description      viewtimexplus  Emitted once when a content clip reaches a total of 3 minutes of viewtime.", 
+            "title": "Required Viewtime Change events"
+        }, 
+        {
+            "location": "/vvsref/payload-tracking/index.html", 
+            "text": "Tracking Event Payloads\n\n\nThe \nGetting Started with Player Events\n chapter introduced you to player events that are tracked as well as the associated payload that is transmitted from the player.  This chapter looks at the Payload in more detail. Complete information about Payloads is provided below:\n\n\n\n\n\n\n\n\nPrefix\n\n\nName\n\n\nDescription\n\n\nType\n\n\nExample\n\n\nDefault\n\n\n\n\n\n\n\n\n\n\ncontent.\n\n\n\n\nContains the original contentResource\n\n\nContentResource\n\n\n\n\nnull\n\n\n\n\n\n\nad.\n\n\nid\n\n\nAd identifier (separate by \n-\n into orderId, lineitemId, creativeId)\n\n\nString\n\n\n\"12345-67890-87654\"\n\n\nnull\n\n\n\n\n\n\n\n\npositionName\n\n\nName of the displayed ad.\n\n\nAdPositionName\n\n\n\"preroll1b\"\n\n\nnull\n\n\n\n\n\n\n\n\nrollName\n\n\nName of the displayed ad roll block.\n\n\nAdRollName\n\n\n\"preroll\"\n\n\nnull\n\n\n\n\n\n\n\n\nrollIndex\n\n\nIndex of the ad roll block (e.g. midroll block at index 2).\n\n\nNumber\n\n\n2\n\n\nnull\n\n\n\n\n\n\nruntime.\n\n\nmediaType\n\n\nMarks the type of media that is tracked.\n\n\nMediaType\n\n\n\"ad\"\n\n\n\"content\"\n\n\n\n\n\n\n\n\ntechnologyType\n\n\nUsed playback technology of media (e.g. Flash, HTML5).\n\n\nTechnologyType\n\n\nhtml5\n\n\nnull\n\n\n\n\n\n\n\n\nduration\n\n\nDuration of the currently tracked media in seconds (ad or content).\n\n\nNumber\n\n\n3323.34\n\n\n0\n\n\n\n\n\n\n\n\nposition\n\n\nCurrent position within current clip (ad or content) in seconds.\n\n\nNumber\n\n\n10.35\n\n\n0\n\n\n\n\n\n\n\n\nfromPosition\n\n\nWhere was seeked from?\n\n\nNumber\n\n\n8.30\n\n\nnull\n\n\n\n\n\n\n\n\npositionType\n\n\nCan be filled when \nPosition Change\n and can mark a special \nPosition Change\n event.\n\n\nPositionType\n\n\n\"firstquartile\"\n\n\nnull\n\n\n\n\n\n\n\n\ncontentViewtime\n\n\nTotal viewtime of the content clip.\n\n\nNumber\n\n\n20.34\n\n\nnull\n\n\n\n\n\n\n\n\nviewtimeType\n\n\nCan be filled when \nViewtime Change\n and marks a special \nViewtime Change\n event.\n\n\nViewtimeType\n\n\n\"viewtimexplus\"\n\n\nnull\n\n\n\n\n\n\n\n\nisInFullscreen\n\n\nIndicates if the player is in fullscreen.\n\n\nBoolean\n\n\ntrue\n\n\nfalse\n\n\n\n\n\n\n\n\nisMuted\n\n\nIndicates if the player is muted.\n\n\nBoolean\n\n\ntrue\n\n\nfalse\n\n\n\n\n\n\n\n\nvolume\n\n\nContains the currently set volume (0 = mute, 1 = full volume).\n\n\nNumber(0-1)\n\n\n0.53\n\n\n1\n\n\n\n\n\n\n\n\nerrorCode\n\n\nError code that explains the current runtime / creation error.\n\n\nString\n\n\n'A specific Error'\n or \n'11'\n\n\nnull\n\n\n\n\n\n\n\n\nerrorType\n\n\nType of error\n\n\nErrorType\n\n\n'socketconnection'\n\n\nnull\n\n\n\n\n\n\n\n\nadBlockerState\n\n\nState of the AdBlocker detection.\n\n\nString\n\n\n'ab'\n, \n'abx'\n, \n'noab'\n or \n'noabx'\n\n\nnull\n\n\n\n\n\n\n\n\nlifecycleAbortReason\n\n\nReason of \nLifecycle Abort\n\n\nLifecycleAbortReason\n\n\nmediaerror\n\n\nnull\n\n\n\n\n\n\n\n\nplaylistIndex\n\n\nIdentifier on which position within a playlist a video is\n\n\nNumber\n\n\n3\n\n\nnull\n\n\n\n\n\n\n\n\nplaylistLength\n\n\nFull length of a playlist a video is running on\n\n\nNumber\n\n\n5\n\n\nnull\n\n\n\n\n\n\n\n\ncontentDeliveryNetwork\n\n\nName of the CDN the content video file is delivered over\n\n\nString\n\n\nAkamai\n\n\nnull\n\n\n\n\n\n\n\n\nlifecycleId\n\n\nA GUID that identfies the current lifcecycle\n\n\nString\n\n\nabc-cde-fge\n\n\nnull\n\n\n\n\n\n\n\n\nadViewtime\n\n\nPlayed time of ads\n\n\nNumber\n\n\n3\n\n\n123\n\n\n\n\n\n\n\n\nadOmitReason\n\n\nAd omit reason\n\n\nString\n\n\n503.101\n\n\nnull\n\n\n\n\n\n\n\n\nisStartedByUser\n\n\nIf the play request was started by user or autoplay\n\n\nBoolean\n\n\ntrue\n\n\nfalse", 
+            "title": "Tracking Event Payloads"
+        }, 
+        {
+            "location": "/vvsref/payload-tracking/index.html#tracking-event-payloads", 
+            "text": "The  Getting Started with Player Events  chapter introduced you to player events that are tracked as well as the associated payload that is transmitted from the player.  This chapter looks at the Payload in more detail. Complete information about Payloads is provided below:     Prefix  Name  Description  Type  Example  Default      content.   Contains the original contentResource  ContentResource   null    ad.  id  Ad identifier (separate by  -  into orderId, lineitemId, creativeId)  String  \"12345-67890-87654\"  null     positionName  Name of the displayed ad.  AdPositionName  \"preroll1b\"  null     rollName  Name of the displayed ad roll block.  AdRollName  \"preroll\"  null     rollIndex  Index of the ad roll block (e.g. midroll block at index 2).  Number  2  null    runtime.  mediaType  Marks the type of media that is tracked.  MediaType  \"ad\"  \"content\"     technologyType  Used playback technology of media (e.g. Flash, HTML5).  TechnologyType  html5  null     duration  Duration of the currently tracked media in seconds (ad or content).  Number  3323.34  0     position  Current position within current clip (ad or content) in seconds.  Number  10.35  0     fromPosition  Where was seeked from?  Number  8.30  null     positionType  Can be filled when  Position Change  and can mark a special  Position Change  event.  PositionType  \"firstquartile\"  null     contentViewtime  Total viewtime of the content clip.  Number  20.34  null     viewtimeType  Can be filled when  Viewtime Change  and marks a special  Viewtime Change  event.  ViewtimeType  \"viewtimexplus\"  null     isInFullscreen  Indicates if the player is in fullscreen.  Boolean  true  false     isMuted  Indicates if the player is muted.  Boolean  true  false     volume  Contains the currently set volume (0 = mute, 1 = full volume).  Number(0-1)  0.53  1     errorCode  Error code that explains the current runtime / creation error.  String  'A specific Error'  or  '11'  null     errorType  Type of error  ErrorType  'socketconnection'  null     adBlockerState  State of the AdBlocker detection.  String  'ab' ,  'abx' ,  'noab'  or  'noabx'  null     lifecycleAbortReason  Reason of  Lifecycle Abort  LifecycleAbortReason  mediaerror  null     playlistIndex  Identifier on which position within a playlist a video is  Number  3  null     playlistLength  Full length of a playlist a video is running on  Number  5  null     contentDeliveryNetwork  Name of the CDN the content video file is delivered over  String  Akamai  null     lifecycleId  A GUID that identfies the current lifcecycle  String  abc-cde-fge  null     adViewtime  Played time of ads  Number  3  123     adOmitReason  Ad omit reason  String  503.101  null     isStartedByUser  If the play request was started by user or autoplay  Boolean  true  false", 
+            "title": "Tracking Event Payloads"
+        }, 
+        {
+            "location": "/vvsref/mediatypes-tracking/index.html", 
+            "text": "Tracking Event Media Types\n\n\nA completed list of supported media types is provided in the table below:\n\n\n\n\n\n\n\n\nName\n\n\nValues\n\n\n\n\n\n\n\n\n\n\nMediaType\n\n\nad\n, \ncontent\n\n\n\n\n\n\nAdPositionName\n\n\npreroll1b\n, \nsponsor1\n, \npresplit1b\n, ...\n\n\n\n\n\n\nAdRollName\n\n\npreroll\n, \nmidroll\n, \npostroll\n, \noverlay\n, \npauseroll\n\n\n\n\n\n\nTechnologyType\n\n\nflash\n, \nhtml5\n, \nhbbtv\n\n\n\n\n\n\nPositionType\n\n\nfirstquartile\n, \nmidpoint\n, \nthirdquartile\n, ...\n\n\n\n\n\n\nViewtimeType\n\n\nviewtimexplus\n, ...\n\n\n\n\n\n\nLifecycleAbortReason\n\n\nmediaerror\n, \nservererror\n, \npageleave\n, \nuserskip\n\n\n\n\n\n\nErrorType\n\n\nsocketconnection\n, \nmedia", 
+            "title": "Tracking Event Media Types"
+        }, 
+        {
+            "location": "/vvsref/mediatypes-tracking/index.html#tracking-event-media-types", 
+            "text": "A completed list of supported media types is provided in the table below:     Name  Values      MediaType  ad ,  content    AdPositionName  preroll1b ,  sponsor1 ,  presplit1b , ...    AdRollName  preroll ,  midroll ,  postroll ,  overlay ,  pauseroll    TechnologyType  flash ,  html5 ,  hbbtv    PositionType  firstquartile ,  midpoint ,  thirdquartile , ...    ViewtimeType  viewtimexplus , ...    LifecycleAbortReason  mediaerror ,  servererror ,  pageleave ,  userskip    ErrorType  socketconnection ,  media", 
+            "title": "Tracking Event Media Types"
+        }, 
+        {
+            "location": "/vvsref/addatamodel-tracking/index.html", 
+            "text": "The Ad Data Model\n\n\nThe Ad Data Model is described in detail below:\n\n\n\n\n\n\n\n\nproperty\n\n\ndefault\n\n\ntype\n\n\ndescription\n\n\nexample\n\n\npossible values\n\n\n\n\n\n\n\n\n\n\nid\n\n\nnull\n\n\nString\n\n\nAn ad server defined identifier string for the ad. Consists of the 3 parts (separated by \n-\n) \nadOrderId\n, \nadLineitemId\n and \nadCreativeId\n.\n\n\n'55555-12345-77777'\n\n\n\n\n\n\n\n\npositionName\n\n\nnull\n\n\nString\n\n\nThe name of the position in a roll.\n\n\n'preroll1b'\n\n\n\n\n\n\n\n\nrollName\n\n\nnull\n\n\nString\n\n\nThe name of the roll, e.g. preroll.\n\n\n'preroll'\n\n\n\n\n\n\n\n\nrollIndex\n\n\n0\n\n\nuint\n\n\nThe index of a roll like an interstitial at midroll - 2.\n\n\n1\n\n\n\n\n\n\n\n\nadGapId\n\n\nnull\n\n\nString\n\n\nA manually managed ad id, that is provided as VAST extension from external ad servers (wrappers).\n\n\n'AdGapId_021_800009_16439001-11000;'", 
+            "title": "The Ad Data Model"
+        }, 
+        {
+            "location": "/vvsref/addatamodel-tracking/index.html#the-ad-data-model", 
+            "text": "The Ad Data Model is described in detail below:     property  default  type  description  example  possible values      id  null  String  An ad server defined identifier string for the ad. Consists of the 3 parts (separated by  - )  adOrderId ,  adLineitemId  and  adCreativeId .  '55555-12345-77777'     positionName  null  String  The name of the position in a roll.  'preroll1b'     rollName  null  String  The name of the roll, e.g. preroll.  'preroll'     rollIndex  0  uint  The index of a roll like an interstitial at midroll - 2.  1     adGapId  null  String  A manually managed ad id, that is provided as VAST extension from external ad servers (wrappers).  'AdGapId_021_800009_16439001-11000;'", 
+            "title": "The Ad Data Model"
+        }, 
+        {
+            "location": "/vvsref/ad-parameters/index.html", 
+            "text": "Player Events Related to Ad Scheduler\n\n\nThis topic describes player events related to the AdScheduler.  It focuses on the \nget()\n and \nupdate()\n methods of the AdScheduler.\n\n\nThe get() and update() Methods\n\n\nThe \nget()\n and \nupdate()\n methods of the AdScheduler do the bulk of the work in terms of ad scheduling.  Fundamentally, get() returns an AdSchedule independent of user events.  Whereas update() returns a new AdSchedule based on user events. The \nget()\n and \nupdate()\n methods are described in more detail in the table below:\n\n\n\n\n\n\n\n\nMethod\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\nget\n\n\nReturns an initial Ad Schedule object or an Ad Schedule object as a promise. Called before new content starts to get played back.\n\n\n\n\n\n\nupdate\n\n\nReturns an updated Ad Schedule object or an Ad Schedule object as a promise. \nupdate\n gets called for the events listed below.\n\n\n\n\n\n\n\n\nEvents (updateAds)\n\n\nThese events results in the \nupdate\n method being called:\n\n\n\n\n\n\n\n\nName\n\n\nDescription (gets triggered when ...)\n\n\nCategory (See Event Categories below)\n\n\n\n\n\n\n\n\n\n\nmetadatareceived\n\n\nPlayer receives new MetaData (e.g. from stream).\n\n\nExtending/Updating\n\n\n\n\n\n\nfullscreenchanged\n\n\nThe fullscreen state changed.\n\n\nUpdating\n\n\n\n\n\n\npause\n\n\n\"Pause\" was triggered through player.\n\n\nExtending/Updating\n\n\n\n\n\n\nadresourceresolved\n\n\nThe Player resolved an AdResource from VAST.\n\n\nUpdating\n\n\n\n\n\n\nadblockerstatechanged\n\n\nThe AdBlocker state has changed.\n\n\nUpdating\n\n\n\n\n\n\nvmapresolved\n\n\nThe Player resolved a VMAP.\n\n\nUpdating\n\n\n\n\n\n\n\n\nEvent Categories\n\n\nEvents expect special behaviour by their call site, so they are categorized in the following classes:\n\n\n\n\n\n\n\n\nCategory\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\nExtending\n\n\nThe AdScheduler has the opportunity to add a new position schedule to the given \ncurrentPlayerState.timestamp\n. When something gets added at the given position the call site will start interpreting it.\n\n\n\n\n\n\nUpdating\n\n\nThe AdScheduler has the opportunity to fully update the given Ad Schedule.\n\n\n\n\n\n\n\n\nThe Event Object\n\n\nAn Event object is passed to \nupdate\n:\n\n\n\n\n\n\n\n\nName\n\n\nDescription\n\n\nType\n\n\nEvent\n\n\nExample\n\n\nDefault\n\n\nOrigin\n\n\n\n\n\n\n\n\n\n\ntype\n\n\nThe event type\n\n\nString\n\n\nalways\n\n\n{type: 'Pause'}\n\n\nundefined\n\n\nVideoPlayer\n\n\n\n\n\n\nmetadata\n\n\nTransmits Metadata coming in e.g. from a live stream \nSee: Metadata Model\n\n\nObject\n\n\nmetadatareceived\n\n\n{name: adSingleMidroll}\n\n\nundefined\n\n\nMeta Data -\n VideoPlayer\n\n\n\n\n\n\nresolvedAdPosition\n\n\nTransmits the pointer to the last resolved AdResource\n\n\nObject\n\n\nadresourceresolved\n\n\n{position: 'start', tagIndex: 0}\n\n\nundefined\n\n\nVideoPlayer", 
+            "title": "Player Events Related to AdScheduler"
+        }, 
+        {
+            "location": "/vvsref/ad-parameters/index.html#player-events-related-to-ad-scheduler", 
+            "text": "This topic describes player events related to the AdScheduler.  It focuses on the  get()  and  update()  methods of the AdScheduler.", 
+            "title": "Player Events Related to Ad Scheduler"
+        }, 
+        {
+            "location": "/vvsref/ad-parameters/index.html#the-get-and-update-methods", 
+            "text": "The  get()  and  update()  methods of the AdScheduler do the bulk of the work in terms of ad scheduling.  Fundamentally, get() returns an AdSchedule independent of user events.  Whereas update() returns a new AdSchedule based on user events. The  get()  and  update()  methods are described in more detail in the table below:     Method  Description      get  Returns an initial Ad Schedule object or an Ad Schedule object as a promise. Called before new content starts to get played back.    update  Returns an updated Ad Schedule object or an Ad Schedule object as a promise.  update  gets called for the events listed below.", 
+            "title": "The get() and update() Methods"
+        }, 
+        {
+            "location": "/vvsref/ad-parameters/index.html#events-updateads", 
+            "text": "These events results in the  update  method being called:     Name  Description (gets triggered when ...)  Category (See Event Categories below)      metadatareceived  Player receives new MetaData (e.g. from stream).  Extending/Updating    fullscreenchanged  The fullscreen state changed.  Updating    pause  \"Pause\" was triggered through player.  Extending/Updating    adresourceresolved  The Player resolved an AdResource from VAST.  Updating    adblockerstatechanged  The AdBlocker state has changed.  Updating    vmapresolved  The Player resolved a VMAP.  Updating", 
+            "title": "Events (updateAds)"
+        }, 
+        {
+            "location": "/vvsref/ad-parameters/index.html#event-categories", 
+            "text": "Events expect special behaviour by their call site, so they are categorized in the following classes:     Category  Description      Extending  The AdScheduler has the opportunity to add a new position schedule to the given  currentPlayerState.timestamp . When something gets added at the given position the call site will start interpreting it.    Updating  The AdScheduler has the opportunity to fully update the given Ad Schedule.", 
+            "title": "Event Categories"
+        }, 
+        {
+            "location": "/vvsref/ad-parameters/index.html#the-event-object", 
+            "text": "An Event object is passed to  update :     Name  Description  Type  Event  Example  Default  Origin      type  The event type  String  always  {type: 'Pause'}  undefined  VideoPlayer    metadata  Transmits Metadata coming in e.g. from a live stream  See: Metadata Model  Object  metadatareceived  {name: adSingleMidroll}  undefined  Meta Data -  VideoPlayer    resolvedAdPosition  Transmits the pointer to the last resolved AdResource  Object  adresourceresolved  {position: 'start', tagIndex: 0}  undefined  VideoPlayer", 
+            "title": "The Event Object"
+        }, 
+        {
+            "location": "/vvsref/ad-datastruct/index.html", 
+            "text": "The AdSchedule Object\n\n\nUp until now we have looked in detail at the Ad Scheduler.  Within the Ad Scheduler, the AdSchedule object defines the actual details of the ad schedule. \n\n\nCode Snippet: AdSchedule\n\n\nAdSchedule {\n   start: {\n      type: String\n      tags: Array\n   },\n   *%: {\n      type: String\n      tags: Array\n   },\n   *uts: {\n      type: String\n      tags: Array\n   },\n   *s: {\n      type: String\n      tags: Array\n   },\n   end: {\n      type: String\n      tags: Array\n   },\n   // or\n   // vmap: String\n}\n\n\n\n\nRoot Properties of AdSchedule\n\n\nThe root properties shown in the sample code above are described in detail below:\n\n\n\n\n\n\n\n\nProperty\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\nstart\n\n\nContains tags (urls) to fill up an ad block that appears before the content video starts.\n\n\n\n\n\n\nend\n\n\nContains tags (urls) to fill up an ad block that appears when content video is finished.\n\n\n\n\n\n\n*\n%\n\n\nStands for a relative value that can be applied when the content has a finite duration. Contains tags (urls) to fill up an ad block that appears in the middle of a content video.\n\n\n\n\n\n\n*\nuts\n\n\nStands for a \nUnixTimeStamp\n in seconds. Contains tags (urls) to fill up an ad block that appears in the middle of a content video.\n\n\n\n\n\n\n*\ns\n\n\nStands for a \nSecond\n unit. Contains tags (urls) to fill up an ad block that appears in the middle of a content video.\n\n\n\n\n\n\nvmap\n\n\nWithin \nget\n one VMAP URL can be returned and will be resolved by the player\n\n\n\n\n\n\n\n\nPosition Details within AdSchedule\n\n\nThe \ntype\n and \ntags\n parameters shown in the sample code above are described in detail below:\n\n\n\n\n\n\n\n\nProperty\n\n\nPossible Values\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\ntype\n\n\nlinear\n, \nnonlinear\n\n\nDescribes what type of urls are in the tags array to interpret them correctly.\n\n\n\n\n\n\ntags\n\n\n[]\n\n\nThe array contains urls pointing to VAST sources or resolved ad tags.\n\n\n\n\n\n\n\n\nCode Sample: Complete AdSchedule Sample\n\n\nThe code below shows an actual example with sample \ntype\n and \ntags\n parameters:\n\n\n{\n  start: {\n    type: 'linear',\n    tags: [\n      'http://pointing-to-preroll-vast1',\n      'http://pointing-to-preroll-vast2'\n    ]\n  },\n  '10.40s': {\n    type: 'linear', \n    tags: [\n      'http://pointing-to-midroll0-vast1',\n      'http://pointing-to-midroll0-vast2'\n    ]\n  },\n  '50%': {\n    type: 'linear', \n    tags: [\n      'http://pointing-to-midroll0-vast1',\n      'http://pointing-to-midroll0-vast2'\n    ]\n  },\n  '1458226575063uts': {\n    type: 'nonlinear', \n    tags: [\n      'http://pointing-to-pauseroll0-vast1'\n    ] \n  },\n  '22.23s': {\n    type: 'nonlinear', \n    tags: [\n      'http://pointing-to-overlay0-vast1',\n      'http://pointing-to-overlay0-vast2'\n    ]\n  }\n  '32.12s': {\n    type: 'linear', \n    tags: [\n      'http://pointing-to-midroll1-vast1',\n      'http://pointing-to-midroll1-vast2'\n    ]\n  },\n  '44.10s': {\n    type: 'nonlinear', \n    tags: [\n      'http://pointing-to-overlay1-vast1',\n      'http://pointing-to-overlay1-vast2'\n    ]\n  },\n  end: {\n    type: 'linear',\n    tags: [\n      'http://pointing-to-postroll-vast1',\n      'http://pointing-to-postroll-vast2'\n    ]\n  }\n}", 
+            "title": "The AdSchedule Object"
+        }, 
+        {
+            "location": "/vvsref/ad-datastruct/index.html#the-adschedule-object", 
+            "text": "Up until now we have looked in detail at the Ad Scheduler.  Within the Ad Scheduler, the AdSchedule object defines the actual details of the ad schedule.", 
+            "title": "The AdSchedule Object"
+        }, 
+        {
+            "location": "/vvsref/ad-datastruct/index.html#code-snippet-adschedule", 
+            "text": "AdSchedule {\n   start: {\n      type: String\n      tags: Array\n   },\n   *%: {\n      type: String\n      tags: Array\n   },\n   *uts: {\n      type: String\n      tags: Array\n   },\n   *s: {\n      type: String\n      tags: Array\n   },\n   end: {\n      type: String\n      tags: Array\n   },\n   // or\n   // vmap: String\n}", 
+            "title": "Code Snippet: AdSchedule"
+        }, 
+        {
+            "location": "/vvsref/ad-datastruct/index.html#root-properties-of-adschedule", 
+            "text": "The root properties shown in the sample code above are described in detail below:     Property  Description      start  Contains tags (urls) to fill up an ad block that appears before the content video starts.    end  Contains tags (urls) to fill up an ad block that appears when content video is finished.    * %  Stands for a relative value that can be applied when the content has a finite duration. Contains tags (urls) to fill up an ad block that appears in the middle of a content video.    * uts  Stands for a  UnixTimeStamp  in seconds. Contains tags (urls) to fill up an ad block that appears in the middle of a content video.    * s  Stands for a  Second  unit. Contains tags (urls) to fill up an ad block that appears in the middle of a content video.    vmap  Within  get  one VMAP URL can be returned and will be resolved by the player", 
+            "title": "Root Properties of AdSchedule"
+        }, 
+        {
+            "location": "/vvsref/ad-datastruct/index.html#position-details-within-adschedule", 
+            "text": "The  type  and  tags  parameters shown in the sample code above are described in detail below:     Property  Possible Values  Description      type  linear ,  nonlinear  Describes what type of urls are in the tags array to interpret them correctly.    tags  []  The array contains urls pointing to VAST sources or resolved ad tags.", 
+            "title": "Position Details within AdSchedule"
+        }, 
+        {
+            "location": "/vvsref/ad-datastruct/index.html#code-sample-complete-adschedule-sample", 
+            "text": "The code below shows an actual example with sample  type  and  tags  parameters:  {\n  start: {\n    type: 'linear',\n    tags: [\n      'http://pointing-to-preroll-vast1',\n      'http://pointing-to-preroll-vast2'\n    ]\n  },\n  '10.40s': {\n    type: 'linear', \n    tags: [\n      'http://pointing-to-midroll0-vast1',\n      'http://pointing-to-midroll0-vast2'\n    ]\n  },\n  '50%': {\n    type: 'linear', \n    tags: [\n      'http://pointing-to-midroll0-vast1',\n      'http://pointing-to-midroll0-vast2'\n    ]\n  },\n  '1458226575063uts': {\n    type: 'nonlinear', \n    tags: [\n      'http://pointing-to-pauseroll0-vast1'\n    ] \n  },\n  '22.23s': {\n    type: 'nonlinear', \n    tags: [\n      'http://pointing-to-overlay0-vast1',\n      'http://pointing-to-overlay0-vast2'\n    ]\n  }\n  '32.12s': {\n    type: 'linear', \n    tags: [\n      'http://pointing-to-midroll1-vast1',\n      'http://pointing-to-midroll1-vast2'\n    ]\n  },\n  '44.10s': {\n    type: 'nonlinear', \n    tags: [\n      'http://pointing-to-overlay1-vast1',\n      'http://pointing-to-overlay1-vast2'\n    ]\n  },\n  end: {\n    type: 'linear',\n    tags: [\n      'http://pointing-to-postroll-vast1',\n      'http://pointing-to-postroll-vast2'\n    ]\n  }\n}", 
+            "title": "Code Sample: Complete AdSchedule Sample"
+        }, 
+        {
+            "location": "/vvsref/legacy/index.html", 
+            "text": "Appendix A: Legacy Functions\n\n\nThese functions will be deprecated in the near future.\n\n\nsetEndscreen(endscreenType)\n\n\nProvides a mechanism to set the \nendscreenType\n after the initial creation. Available options: \nreplay, rcommCounterScreen, rcommScreen\n. The default \nendscreenType\n is \nreplay\n. If any \nrecommendations\n are set, the default \nendscreenType\n will be \nrcommScreen\n.\n\n\nsetRecommendations(recommendations)\n\n\nProvides a mechanism to set the \nrecommendations\n after the initial creation. The parameter \nrecommendations\n is expected to be an array of content resource objects (see \nRecommendation Model\n).\n\n\nRecommendation Model\n\n\n\n\n\n\n\n\nproperty\n\n\ndefault\n\n\ntype\n\n\ndescription\n\n\nexample\n\n\n\n\n\n\n\n\n\n\ntitle\n\n\n''\n\n\nString\n\n\nTitle of the recommendation\n\n\n'Another Episode'\n\n\n\n\n\n\ndescription\n\n\n''\n\n\nString\n\n\nShort description\n\n\n'In this episode a new character will be introduced.'\n\n\n\n\n\n\nhome_url\n\n\n''\n\n\nString\n\n\nTarget url of recommendation item\n\n\n'http://home-url/foo'\n\n\n\n\n\n\ntheme_url\n\n\n''\n\n\nString\n\n\nTarget channel of recommendation if existing\n\n\n'http://theme-url/foo'\n\n\n\n\n\n\nduration\n\n\n''\n\n\nString\n\n\nDuration content length\n\n\n'30.08'\n\n\n\n\n\n\nthumbnail\n\n\n''\n\n\nArray\n\n\nThumbnail picture url\n\n\n[{url:'/dynamic/thumbnail'}]", 
+            "title": "Appendix A: Legacy Functions"
+        }, 
+        {
+            "location": "/vvsref/legacy/index.html#appendix-a-legacy-functions", 
+            "text": "These functions will be deprecated in the near future.", 
+            "title": "Appendix A: Legacy Functions"
+        }, 
+        {
+            "location": "/vvsref/legacy/index.html#setendscreenendscreentype", 
+            "text": "Provides a mechanism to set the  endscreenType  after the initial creation. Available options:  replay, rcommCounterScreen, rcommScreen . The default  endscreenType  is  replay . If any  recommendations  are set, the default  endscreenType  will be  rcommScreen .", 
+            "title": "setEndscreen(endscreenType)"
+        }, 
+        {
+            "location": "/vvsref/legacy/index.html#setrecommendationsrecommendations", 
+            "text": "Provides a mechanism to set the  recommendations  after the initial creation. The parameter  recommendations  is expected to be an array of content resource objects (see  Recommendation Model ).", 
+            "title": "setRecommendations(recommendations)"
+        }, 
+        {
+            "location": "/vvsref/legacy/index.html#recommendation-model", 
+            "text": "property  default  type  description  example      title  ''  String  Title of the recommendation  'Another Episode'    description  ''  String  Short description  'In this episode a new character will be introduced.'    home_url  ''  String  Target url of recommendation item  'http://home-url/foo'    theme_url  ''  String  Target channel of recommendation if existing  'http://theme-url/foo'    duration  ''  String  Duration content length  '30.08'    thumbnail  ''  Array  Thumbnail picture url  [{url:'/dynamic/thumbnail'}]", 
+            "title": "Recommendation Model"
+        }, 
+        {
+            "location": "/video/videointro/index.html", 
+            "text": "Title\n\n\nxxx", 
+            "title": "Read Me First"
+        }, 
+        {
+            "location": "/video/videointro/index.html#title", 
+            "text": "xxx", 
+            "title": "Title"
+        }, 
+        {
+            "location": "/video/video1/index.html", 
+            "text": "Title\n\n\nxxx", 
+            "title": "Diagram: Event Tracking"
+        }, 
+        {
+            "location": "/video/video1/index.html#title", 
+            "text": "xxx", 
+            "title": "Title"
+        }, 
+        {
+            "location": "/video/video2/index.html", 
+            "text": "Title\n\n\nxxx", 
+            "title": "Tracking Events"
+        }, 
+        {
+            "location": "/video/video2/index.html#title", 
+            "text": "xxx", 
+            "title": "Title"
+        }, 
+        {
+            "location": "/metadata/metadataintro/index.html", 
+            "text": "Title\n\n\nxxx", 
+            "title": "Read Me First"
+        }, 
+        {
+            "location": "/metadata/metadataintro/index.html#title", 
+            "text": "xxx", 
+            "title": "Title"
+        }, 
+        {
+            "location": "/metadata/metadata1/index.html", 
+            "text": "Title\n\n\nxxx", 
+            "title": "Diagram: Event Tracking"
+        }, 
+        {
+            "location": "/metadata/metadata1/index.html#title", 
+            "text": "xxx", 
+            "title": "Title"
+        }, 
+        {
+            "location": "/metadata/metadata2/index.html", 
+            "text": "Title\n\n\nxxx", 
+            "title": "Tracking Events"
+        }, 
+        {
+            "location": "/metadata/metadata2/index.html#title", 
+            "text": "xxx", 
+            "title": "Title"
+        }, 
+        {
+            "location": "/internal/internalintro/index.html", 
+            "text": "Read Me First\n\n\nAll glomex docs begin with a Read Me First in order to help orient readers by introducing the subject matter covered in a doc, the purpose of the doc, the recommended audiences for the doc. Prerequisites are also covered which are things you should know before reading the doc.\n\n\nWhat is the INTERNAL Section About?\n\n\nINTERNAL is strictly for glomex employees and contractors.\n\n\nPurpose of this Doc\n\n\nThe purpose of this document is to provide detailed steps and reference information to help you successfully implement the VVS player.\n\n\nAudience for this Doc\n\n\nThis document is for developers and other technical personnel responsible for implementing the VVS Player on a publisher's site.\n\n\nPrerequisities to Understand this Doc\n\n\nIt is assumed that you have a basic familiarity with JavaScript and object-oriented programming.\n\n\nOverview of Doc Contents\n\n\nThis document covers all aspects of the VVS Player including:\n\n\n\n\nhow to initialize the player\n\n\nhow to call public methods provided as part of the API\n\n\nhow to handle tracking events transmitted from the player through the lifecyle\n\n\nhow to schedule ads that display in the player", 
+            "title": "Read Me First"
+        }, 
+        {
+            "location": "/internal/internalintro/index.html#read-me-first", 
+            "text": "All glomex docs begin with a Read Me First in order to help orient readers by introducing the subject matter covered in a doc, the purpose of the doc, the recommended audiences for the doc. Prerequisites are also covered which are things you should know before reading the doc.", 
+            "title": "Read Me First"
+        }, 
+        {
+            "location": "/internal/internalintro/index.html#what-is-the-internal-section-about", 
+            "text": "INTERNAL is strictly for glomex employees and contractors.", 
+            "title": "What is the INTERNAL Section About?"
+        }, 
+        {
+            "location": "/internal/internalintro/index.html#purpose-of-this-doc", 
+            "text": "The purpose of this document is to provide detailed steps and reference information to help you successfully implement the VVS player.", 
+            "title": "Purpose of this Doc"
+        }, 
+        {
+            "location": "/internal/internalintro/index.html#audience-for-this-doc", 
+            "text": "This document is for developers and other technical personnel responsible for implementing the VVS Player on a publisher's site.", 
+            "title": "Audience for this Doc"
+        }, 
+        {
+            "location": "/internal/internalintro/index.html#prerequisities-to-understand-this-doc", 
+            "text": "It is assumed that you have a basic familiarity with JavaScript and object-oriented programming.", 
+            "title": "Prerequisities to Understand this Doc"
+        }, 
+        {
+            "location": "/internal/internalintro/index.html#overview-of-doc-contents", 
+            "text": "This document covers all aspects of the VVS Player including:   how to initialize the player  how to call public methods provided as part of the API  how to handle tracking events transmitted from the player through the lifecyle  how to schedule ads that display in the player", 
+            "title": "Overview of Doc Contents"
+        }, 
+        {
+            "location": "/internal/internaltemplate/index.html", 
+            "text": "Read Me First\n\n\nDO NOT CHANGE THIS TEXT.  But do remove all comments in boldface type such as this one.\n\n\nAll glomex docs begin with a Read Me First in order to help orient readers by introducing the subject matter covered in a doc, the purpose of the doc, the recommended audiences for the doc. Prerequisites are also covered which are things you should know before reading the doc.\n\n\nWhat is the INTERNAL Section About?\n\n\nWrite a brief (1-2 paragraph) description of the product feature that this document describes.\n\n\nThe xxxx feature...\n\n\nPurpose of this Doc\n\n\nWrite what overall objective this helps the reader achieve including individual tasks.\n\n\nThe purpose of this document is to...\n\n\nIt demonstrates how to accomplish these tasks:\n\n\n\n\nlist out tasks\n\n\nlist out tasks\n\n\nlist out tasks\n\n\n... \n\n\n\n\nAudience for this Doc\n\n\nDescribe the general audience that this document is aimed at.  Typically you should write documents for 'developers', however, some documents are for 'executives or management'.\n\n\nThis document is for...developers/executives and management.\n\n\nPrerequisities to Understand this Doc\n\n\nDescribe key skills that must have to understand this document.  For example, if you have JavaScript code then specify a 'basic familiarity with JavaScript' as one of the prerequisites.\n\n\nIt is assumed that you have a basic familiarity...JavaScript programming/PHP Programming/Ruby Programming.\n\n\nOverview of Doc Contents\n\n\nThis document covers all aspects of the VVS Player including:\n\n\n\n\nlist out the contents\n\n\nthese points should match the table of contents of the document\n\n\n...", 
+            "title": "Template: Read Me First"
+        }, 
+        {
+            "location": "/internal/internaltemplate/index.html#read-me-first", 
+            "text": "DO NOT CHANGE THIS TEXT.  But do remove all comments in boldface type such as this one.  All glomex docs begin with a Read Me First in order to help orient readers by introducing the subject matter covered in a doc, the purpose of the doc, the recommended audiences for the doc. Prerequisites are also covered which are things you should know before reading the doc.", 
+            "title": "Read Me First"
+        }, 
+        {
+            "location": "/internal/internaltemplate/index.html#what-is-the-internal-section-about", 
+            "text": "Write a brief (1-2 paragraph) description of the product feature that this document describes.  The xxxx feature...", 
+            "title": "What is the INTERNAL Section About?"
+        }, 
+        {
+            "location": "/internal/internaltemplate/index.html#purpose-of-this-doc", 
+            "text": "Write what overall objective this helps the reader achieve including individual tasks.  The purpose of this document is to...  It demonstrates how to accomplish these tasks:   list out tasks  list out tasks  list out tasks  ...", 
+            "title": "Purpose of this Doc"
+        }, 
+        {
+            "location": "/internal/internaltemplate/index.html#audience-for-this-doc", 
+            "text": "Describe the general audience that this document is aimed at.  Typically you should write documents for 'developers', however, some documents are for 'executives or management'.  This document is for...developers/executives and management.", 
+            "title": "Audience for this Doc"
+        }, 
+        {
+            "location": "/internal/internaltemplate/index.html#prerequisities-to-understand-this-doc", 
+            "text": "Describe key skills that must have to understand this document.  For example, if you have JavaScript code then specify a 'basic familiarity with JavaScript' as one of the prerequisites.  It is assumed that you have a basic familiarity...JavaScript programming/PHP Programming/Ruby Programming.", 
+            "title": "Prerequisities to Understand this Doc"
+        }, 
+        {
+            "location": "/internal/internaltemplate/index.html#overview-of-doc-contents", 
+            "text": "This document covers all aspects of the VVS Player including:   list out the contents  these points should match the table of contents of the document  ...", 
+            "title": "Overview of Doc Contents"
+        }, 
+        {
+            "location": "/internal/internalstyle/index.html", 
+            "text": "Style Guide\n\n\nThis is the glomex Style Guide.\nIt defines all standards in terms of how to write in English in glomex docs.\nFor definitions of the words, see the Glossary.\n\n\ne.g.\n\n\nWhen you present an example you should use e.g..  e.g. is always used in the same way that 'for example' is used. Do not use a comma after: e.g.,.  In full sentences, it is recommended that you use 'for example' instead because it is easier to read.  But in tables, or where space is limited, use e.g..  \n\n\nfunction\n\n\nWhen describing JavaScript calls, always use the word function.  Never use the word method unless you are talking about an object.\n\n\nglomex\n\n\nAlways spell with a lowercase 'g'. Even if the word comes at the beginning of a sentence.\n\n\npublisher\n\n\nAll of glomex's customers are referred to as publishers.  A publisher is anyone who provides video content. Please use the word publisher instead of customer or client.\n\n\nVVS Player\n\n\nThe official name of the glomex player.  Please spell out 'VVS Player' the first time it appears in a topic.  The second, third and other additional times, you can simply use 'player'.", 
+            "title": "Style Guide"
+        }, 
+        {
+            "location": "/internal/internalstyle/index.html#style-guide", 
+            "text": "This is the glomex Style Guide.\nIt defines all standards in terms of how to write in English in glomex docs.\nFor definitions of the words, see the Glossary.", 
+            "title": "Style Guide"
+        }, 
+        {
+            "location": "/internal/internalstyle/index.html#eg", 
+            "text": "When you present an example you should use e.g..  e.g. is always used in the same way that 'for example' is used. Do not use a comma after: e.g.,.  In full sentences, it is recommended that you use 'for example' instead because it is easier to read.  But in tables, or where space is limited, use e.g..", 
+            "title": "e.g."
+        }, 
+        {
+            "location": "/internal/internalstyle/index.html#function", 
+            "text": "When describing JavaScript calls, always use the word function.  Never use the word method unless you are talking about an object.", 
+            "title": "function"
+        }, 
+        {
+            "location": "/internal/internalstyle/index.html#glomex", 
+            "text": "Always spell with a lowercase 'g'. Even if the word comes at the beginning of a sentence.", 
+            "title": "glomex"
+        }, 
+        {
+            "location": "/internal/internalstyle/index.html#publisher", 
+            "text": "All of glomex's customers are referred to as publishers.  A publisher is anyone who provides video content. Please use the word publisher instead of customer or client.", 
+            "title": "publisher"
+        }, 
+        {
+            "location": "/internal/internalstyle/index.html#vvs-player", 
+            "text": "The official name of the glomex player.  Please spell out 'VVS Player' the first time it appears in a topic.  The second, third and other additional times, you can simply use 'player'.", 
+            "title": "VVS Player"
+        }, 
+        {
+            "location": "/internal/internalglossary/index.html", 
+            "text": "Glossary\n\n\nThis is the glomex Glossary.\nIt defines all standard English word usage.\nPlease do your best to follow the standards defined here.\n\n\nfunction\n\n\nJavaScript\n: A unit of functionality.\n\n\nPHP\n: A unit of functionality.\n\n\nRuby\n: Not used.\n\n\nglomex\n\n\nglomex is a subsidiary of ProSiebenSat.1 Group which is the number one television broadcaster in Germany, reaching over 42 million households each day in Germany, Austria and Switzerland. \n\n\nPublisher\n\n\nPublisher is a general term for any company that provides video content online.", 
+            "title": "Glossary"
+        }, 
+        {
+            "location": "/internal/internalglossary/index.html#glossary", 
+            "text": "This is the glomex Glossary.\nIt defines all standard English word usage.\nPlease do your best to follow the standards defined here.", 
+            "title": "Glossary"
+        }, 
+        {
+            "location": "/internal/internalglossary/index.html#function", 
+            "text": "JavaScript : A unit of functionality.  PHP : A unit of functionality.  Ruby : Not used.", 
+            "title": "function"
+        }, 
+        {
+            "location": "/internal/internalglossary/index.html#glomex", 
+            "text": "glomex is a subsidiary of ProSiebenSat.1 Group which is the number one television broadcaster in Germany, reaching over 42 million households each day in Germany, Austria and Switzerland.", 
+            "title": "glomex"
+        }, 
+        {
+            "location": "/internal/internalglossary/index.html#publisher", 
+            "text": "Publisher is a general term for any company that provides video content online.", 
+            "title": "Publisher"
+        }, 
+        {
+            "location": "/internal/internalacronyms/index.html", 
+            "text": "Acronyms Glossary\n\n\nThis is the glomex glossary of acronyms.\n\n\nCDN\n\n\nContent Delivery Network\n\n\nThese are large networks of servers that have copies of data, pulled from an origin server, and are often geographically diverse in their location. The end user pulls the needed resources from the server that is closest to them, which is called an edge server. This process is done to decrease any delays that might be caused due to server proximity to the end user, as larger physical distances will result in longer delays, and ideally avoid congestion issues. Due to the resource intensive process of video streaming, most streaming platforms utilize a CDN.\n\n\nDRM\n\n\nDigital Rights Management\n\n\nVarious access control technologies that are used to restrict usage of proprietary hardware and copyrighted works. DRM technologies try to control the use, modification, and distribution of copyrighted works (such as software and multimedia content), as well as systems within devices that enforce these policies.\n\n\nHDS\n\n\nHTTP Dynamic Streaming\n\n\nAdobe\u2019s HTTP Dynamic Streaming is an HTTP-based technology for adaptive streaming. It segments the video content into smaller video chunks, allowing switching between bit rates when viewing. \n\n\nHLS\n\n\nHTTP Live Streaming\n\n\nApple\u2019s HTTP Live Streaming is an adaptive streaming technology. It functions by breaking down the stream into smaller MPEG2-TS files. These files vary by bitrate and often times resolution, and ideally are served to the viewer based on the criteria of their setup such as download speed.", 
+            "title": "Glossary of Acronyms"
+        }, 
+        {
+            "location": "/internal/internalacronyms/index.html#acronyms-glossary", 
+            "text": "This is the glomex glossary of acronyms.", 
+            "title": "Acronyms Glossary"
+        }, 
+        {
+            "location": "/internal/internalacronyms/index.html#cdn", 
+            "text": "Content Delivery Network  These are large networks of servers that have copies of data, pulled from an origin server, and are often geographically diverse in their location. The end user pulls the needed resources from the server that is closest to them, which is called an edge server. This process is done to decrease any delays that might be caused due to server proximity to the end user, as larger physical distances will result in longer delays, and ideally avoid congestion issues. Due to the resource intensive process of video streaming, most streaming platforms utilize a CDN.", 
+            "title": "CDN"
+        }, 
+        {
+            "location": "/internal/internalacronyms/index.html#drm", 
+            "text": "Digital Rights Management  Various access control technologies that are used to restrict usage of proprietary hardware and copyrighted works. DRM technologies try to control the use, modification, and distribution of copyrighted works (such as software and multimedia content), as well as systems within devices that enforce these policies.", 
+            "title": "DRM"
+        }, 
+        {
+            "location": "/internal/internalacronyms/index.html#hds", 
+            "text": "HTTP Dynamic Streaming  Adobe\u2019s HTTP Dynamic Streaming is an HTTP-based technology for adaptive streaming. It segments the video content into smaller video chunks, allowing switching between bit rates when viewing.", 
+            "title": "HDS"
+        }, 
+        {
+            "location": "/internal/internalacronyms/index.html#hls", 
+            "text": "HTTP Live Streaming  Apple\u2019s HTTP Live Streaming is an adaptive streaming technology. It functions by breaking down the stream into smaller MPEG2-TS files. These files vary by bitrate and often times resolution, and ideally are served to the viewer based on the criteria of their setup such as download speed.", 
+            "title": "HLS"
+        }, 
+        {
+            "location": "/internal/docworkflow/index.html", 
+            "text": "Documentation Workflow\n\n\nThis topic describes the process you need to follow to contribute to glomex docs.  A diagram of the overall workflow is also provided for your information.\n\n\nStep by Step Process to Create glomex docs\n\n\nAs a VVS developer the steps you need to follow are:\n\n\n\n\nSelect the most appropriate template as a starting point.\n\n\nEdit the template.  Remove template instructions.  Add your own text.\n\n\nSave and version your files.  Dan is notified automatically.\n\n\nDan will do a first pass edit of your file.  You are notified automatically.\n\n\nAccept or reject the changes.  Discuss any issues with Dan.\n\n\nDan will email a FINAL APPROVAL version of all your docs to you in HTML format.\n\n\nPlease review and signoff on the documents.  Send Dan an email.\n\n\n\n\nThat's it.  Within a few hours you will see your new docs on the glomex docs site!\n\n\nDocumentation Workflow\n\n\nHere's a diagram of the overall workflow process.  You are involved primarily in phase 1 and phase 2 -- authoring and editing.", 
+            "title": "Documentation Workflow"
+        }, 
+        {
+            "location": "/internal/docworkflow/index.html#documentation-workflow", 
+            "text": "This topic describes the process you need to follow to contribute to glomex docs.  A diagram of the overall workflow is also provided for your information.", 
+            "title": "Documentation Workflow"
+        }, 
+        {
+            "location": "/internal/docworkflow/index.html#step-by-step-process-to-create-glomex-docs", 
+            "text": "As a VVS developer the steps you need to follow are:   Select the most appropriate template as a starting point.  Edit the template.  Remove template instructions.  Add your own text.  Save and version your files.  Dan is notified automatically.  Dan will do a first pass edit of your file.  You are notified automatically.  Accept or reject the changes.  Discuss any issues with Dan.  Dan will email a FINAL APPROVAL version of all your docs to you in HTML format.  Please review and signoff on the documents.  Send Dan an email.   That's it.  Within a few hours you will see your new docs on the glomex docs site!", 
+            "title": "Step by Step Process to Create glomex docs"
+        }, 
+        {
+            "location": "/internal/docworkflow/index.html#documentation-workflow_1", 
+            "text": "Here's a diagram of the overall workflow process.  You are involved primarily in phase 1 and phase 2 -- authoring and editing.", 
+            "title": "Documentation Workflow"
+        }
+    ]
+}

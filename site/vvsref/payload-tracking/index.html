@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+
+    <title>Tracking Event Payloads - glomex docs</title>
+
+    <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.018/css/hack.min.css">
+    <link href='//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="../../css/base.css" rel="stylesheet">
+    <link href="../../css/cinder.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/highlight.css">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+    <script>
+    WebFont.load({
+        google: {
+            families: ['Open Sans', 'PT Sans']
+        }
+    });
+    </script>
+
+    
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="../../index.html">glomex docs</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="../../index.html">Welcome</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Player QuickStart <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../vvsfast/index.html">Read Me First</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../vvsfast/playerformats/index.html">Player Formats</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../vvsfast/playerobjectmodel/index.html">Player Object Model</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../vvsfast/calling/index.html">Loading & Calling the Player</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../vvsfast/callcode/index.html">CopyCode: Calling the Player</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../vvsfast/code/index.html">CodeInteractive: Calling the Player</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../vvsfast/events/index.html">Player Events</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../vvsfast/onevents/index.html">CopyCode: Handling Player Events</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../vvsfast/ad-scheduler/index.html">The AdScheduler</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../vvsfast/construct/index.html">Using the AdScheduler</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../vvsfast/ad-scheduler2/index.html">Task List: Integrating the AdScheduler</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../vvsfast/ad-integration/index.html">CopyCode: Integrating the AdScheduler</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Player Reference <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../playerrefintro/index.html">Read Me First</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../api/index.html">Player Methods: General</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../addcontent/index.html">Player Methods: Adding and Removing Content</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../contentdatamodel/index.html">The Content Data Model</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../listevents/index.html">Tracked Player Events</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../tracking/index.html">Diagram: Event Tracking</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../events-tracking/index.html">Tracking Event Names</a>
+</li>
+
+                        
+                            
+<li class="active">
+    <a href="index.html">Tracking Event Payloads</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../mediatypes-tracking/index.html">Tracking Event Media Types</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../addatamodel-tracking/index.html">The Ad Data Model</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../ad-parameters/index.html">Player Events Related to AdScheduler</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../ad-datastruct/index.html">The AdSchedule Object</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../legacy/index.html">Appendix A: Legacy Functions</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Video <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../video/videointro/index.html">Read Me First</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../video/video1/index.html">Diagram: Event Tracking</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../video/video2/index.html">Tracking Events</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Metadata <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../metadata/metadataintro/index.html">Read Me First</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../metadata/metadata1/index.html">Diagram: Event Tracking</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../metadata/metadata2/index.html">Tracking Events</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">LOGIN <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../internal/internalintro/index.html">Read Me First</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../internal/internaltemplate/index.html">Template: Read Me First</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../internal/internalstyle/index.html">Style Guide</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../internal/internalglossary/index.html">Glossary</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../internal/internalacronyms/index.html">Glossary of Acronyms</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../internal/docworkflow/index.html">Documentation Workflow</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                </ul>
+            
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                
+                    <li >
+                        <a rel="next" href="../events-tracking/index.html">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../mediatypes-tracking/index.html">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+                
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="first-level active"><a href="#tracking-event-payloads">Tracking Event Payloads</a></li>
+        
+    
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
+
+<h1 id="tracking-event-payloads">Tracking Event Payloads</h1>
+<p>The <a href="overview-tracking.md">Getting Started with Player Events</a> chapter introduced you to player events that are tracked as well as the associated payload that is transmitted from the player.  This chapter looks at the Payload in more detail. Complete information about Payloads is provided below:</p>
+<table>
+<thead>
+<tr>
+<th>Prefix</th>
+<th>Name</th>
+<th>Description</th>
+<th>Type</th>
+<th>Example</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>content.</strong></td>
+<td></td>
+<td>Contains the original contentResource</td>
+<td><a href="../player-api#content-model.md">ContentResource</a></td>
+<td></td>
+<td><code>null</code></td>
+</tr>
+<tr>
+<td><strong>ad.</strong></td>
+<td>id</td>
+<td>Ad identifier (separate by <code>-</code> into orderId, lineitemId, creativeId)</td>
+<td>String</td>
+<td><code>"12345-67890-87654"</code></td>
+<td><code>null</code></td>
+</tr>
+<tr>
+<td></td>
+<td>positionName</td>
+<td>Name of the displayed ad.</td>
+<td>AdPositionName</td>
+<td><code>"preroll1b"</code></td>
+<td><code>null</code></td>
+</tr>
+<tr>
+<td></td>
+<td>rollName</td>
+<td>Name of the displayed ad roll block.</td>
+<td>AdRollName</td>
+<td><code>"preroll"</code></td>
+<td><code>null</code></td>
+</tr>
+<tr>
+<td></td>
+<td>rollIndex</td>
+<td>Index of the ad roll block (e.g. midroll block at index 2).</td>
+<td>Number</td>
+<td><code>2</code></td>
+<td><code>null</code></td>
+</tr>
+<tr>
+<td><strong>runtime.</strong></td>
+<td>mediaType</td>
+<td>Marks the type of media that is tracked.</td>
+<td>MediaType</td>
+<td><code>"ad"</code></td>
+<td><code>"content"</code></td>
+</tr>
+<tr>
+<td></td>
+<td>technologyType</td>
+<td>Used playback technology of media (e.g. Flash, HTML5).</td>
+<td>TechnologyType</td>
+<td><code>html5</code></td>
+<td><code>null</code></td>
+</tr>
+<tr>
+<td></td>
+<td>duration</td>
+<td>Duration of the currently tracked media in seconds (ad or content).</td>
+<td>Number</td>
+<td><code>3323.34</code></td>
+<td><code>0</code></td>
+</tr>
+<tr>
+<td></td>
+<td>position</td>
+<td>Current position within current clip (ad or content) in seconds.</td>
+<td>Number</td>
+<td><code>10.35</code></td>
+<td><code>0</code></td>
+</tr>
+<tr>
+<td></td>
+<td>fromPosition</td>
+<td>Where was seeked from?</td>
+<td>Number</td>
+<td><code>8.30</code></td>
+<td><code>null</code></td>
+</tr>
+<tr>
+<td></td>
+<td>positionType</td>
+<td>Can be filled when <code>Position Change</code> and can mark a special <code>Position Change</code> event.</td>
+<td>PositionType</td>
+<td><code>"firstquartile"</code></td>
+<td><code>null</code></td>
+</tr>
+<tr>
+<td></td>
+<td>contentViewtime</td>
+<td>Total viewtime of the content clip.</td>
+<td>Number</td>
+<td><code>20.34</code></td>
+<td><code>null</code></td>
+</tr>
+<tr>
+<td></td>
+<td>viewtimeType</td>
+<td>Can be filled when <code>Viewtime Change</code> and marks a special <code>Viewtime Change</code> event.</td>
+<td>ViewtimeType</td>
+<td><code>"viewtimexplus"</code></td>
+<td><code>null</code></td>
+</tr>
+<tr>
+<td></td>
+<td>isInFullscreen</td>
+<td>Indicates if the player is in fullscreen.</td>
+<td>Boolean</td>
+<td><code>true</code></td>
+<td><code>false</code></td>
+</tr>
+<tr>
+<td></td>
+<td>isMuted</td>
+<td>Indicates if the player is muted.</td>
+<td>Boolean</td>
+<td><code>true</code></td>
+<td><code>false</code></td>
+</tr>
+<tr>
+<td></td>
+<td>volume</td>
+<td>Contains the currently set volume (0 = mute, 1 = full volume).</td>
+<td>Number(0-1)</td>
+<td><code>0.53</code></td>
+<td><code>1</code></td>
+</tr>
+<tr>
+<td></td>
+<td>errorCode</td>
+<td>Error code that explains the current runtime / creation error.</td>
+<td>String</td>
+<td><code>'A specific Error'</code> or <code>'11'</code></td>
+<td><code>null</code></td>
+</tr>
+<tr>
+<td></td>
+<td>errorType</td>
+<td>Type of error</td>
+<td>ErrorType</td>
+<td><code>'socketconnection'</code></td>
+<td><code>null</code></td>
+</tr>
+<tr>
+<td></td>
+<td>adBlockerState</td>
+<td>State of the AdBlocker detection.</td>
+<td>String</td>
+<td><code>'ab'</code>, <code>'abx'</code>, <code>'noab'</code> or <code>'noabx'</code></td>
+<td><code>null</code></td>
+</tr>
+<tr>
+<td></td>
+<td>lifecycleAbortReason</td>
+<td>Reason of <code>Lifecycle Abort</code></td>
+<td>LifecycleAbortReason</td>
+<td><code>mediaerror</code></td>
+<td><code>null</code></td>
+</tr>
+<tr>
+<td></td>
+<td>playlistIndex</td>
+<td>Identifier on which position within a playlist a video is</td>
+<td>Number</td>
+<td><code>3</code></td>
+<td><code>null</code></td>
+</tr>
+<tr>
+<td></td>
+<td>playlistLength</td>
+<td>Full length of a playlist a video is running on</td>
+<td>Number</td>
+<td><code>5</code></td>
+<td><code>null</code></td>
+</tr>
+<tr>
+<td></td>
+<td>contentDeliveryNetwork</td>
+<td>Name of the CDN the content video file is delivered over</td>
+<td>String</td>
+<td><code>Akamai</code></td>
+<td><code>null</code></td>
+</tr>
+<tr>
+<td></td>
+<td>lifecycleId</td>
+<td>A GUID that identfies the current lifcecycle</td>
+<td>String</td>
+<td><code>abc-cde-fge</code></td>
+<td><code>null</code></td>
+</tr>
+<tr>
+<td></td>
+<td>adViewtime</td>
+<td>Played time of ads</td>
+<td>Number</td>
+<td><code>3</code></td>
+<td><code>123</code></td>
+</tr>
+<tr>
+<td></td>
+<td>adOmitReason</td>
+<td>Ad omit reason</td>
+<td>String</td>
+<td><code>503.101</code></td>
+<td><code>null</code></td>
+</tr>
+<tr>
+<td></td>
+<td>isStartedByUser</td>
+<td>If the play request was started by user or autoplay</td>
+<td>Boolean</td>
+<td><code>true</code></td>
+<td><code>false</code></td>
+</tr>
+</tbody>
+</table></div>
+        
+    </div>
+
+    <footer class="col-md-12 text-center">
+        <hr>
+        <p>
+        <small>Copyright (c) 2016 by glomex GmbH.  All rights reserved.<br></small>
+        
+        <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p></small>
+    </footer>
+
+    <script src="../../js/jquery-1.10.2.min.js"></script>
+    <script src="../../js/bootstrap-3.0.3.min.js"></script>
+    <script src="../../js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script>
+    var base_url = '../..';
+    </script>
+    <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
+    <script src="../../js/base.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                        <span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        From here you can search these documents. Enter your search terms below.
+                    </p>
+                    <form role="form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                        </div>
+                    </form>
+                    <div id="mkdocs-search-results"></div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </body>
+
+</html>
